@@ -1,133 +1,2245 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Probash</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <style type="text/css">
+        /*img{
+            background-image: url(img/background-image-640-269.jpg);
+            background-size: cover;
+        }*/     
+    </style>
+</head>
+<body>
 
-        <title>Laravel</title>
+<!-- ================================TOPup START================================ -->
+<div class="fcontainer topUp">
+    <time class="timeTopUp">ঢাকা, সোমবার, ২৮ ফাল্গুন ১৪৩০, ১১ মার্চ ২০২৪, ০০ রমজান ১৪৪৫</time>
+    <div>
+        <input class="search" type="Search" placeholder="Google Custom Search">
+        <button class="btn searchBtn">সার্চ</button>
+        <input class="fontSelect" type="radio" name="fontSelect">
+        <label for="fontSelect1" class="fontSelect">ইউনিজয়</label>
+        <input class="fontSelect" type="radio" name="fontSelect">
+        <label for="fontSelect2" class="fontSelect">ফনেটিক</label>
+    </div>
+    <div class="fcontainer socialTopDiv">
+        <!-- <a href=""><i class="fa fa-facebook socialIcon fbIcon"></i></a>
+        <a href=""><i class="fa fa-twitter socialIcon ttIcon"></i></a>
+        <a href=""><i class="fa fa-youtube socialIcon ytIcon"></i></a> -->
+        <!-- https://static.xx.fbcdn.net/rsrc.php/v3/yn/r/GzgedhmzSQa.png -->
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+        <a href=""><i class="fa-brands fa-facebook-f socialIcon fbIcon"></i></a>
+        <a href=""><i class="fa-brands fa-twitter socialIcon ttIcon"></i></a>
+        <a href=""><i class="fa-brands fa-youtube socialIcon ytIcon"></i></a>       
+        <a class="btn btnLanguage" href="#">English</a>
+    </div>  
+</div>
+<!-- ================================TOPup END================================ -->
 
-        <!-- Styles -->
-        <style>
-            /* ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:Figtree, sans-serif;font-feature-settings:normal}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]{display:none}*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.relative{position:relative}.mx-auto{margin-left:auto;margin-right:auto}.mx-6{margin-left:1.5rem;margin-right:1.5rem}.ml-4{margin-left:1rem}.mt-16{margin-top:4rem}.mt-6{margin-top:1.5rem}.mt-4{margin-top:1rem}.-mt-px{margin-top:-1px}.mr-1{margin-right:0.25rem}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.h-16{height:4rem}.h-7{height:1.75rem}.h-6{height:1.5rem}.h-5{height:1.25rem}.min-h-screen{min-height:100vh}.w-auto{width:auto}.w-16{width:4rem}.w-7{width:1.75rem}.w-6{width:1.5rem}.w-5{width:1.25rem}.max-w-7xl{max-width:80rem}.shrink-0{flex-shrink:0}.scale-100{--tw-scale-x:1;--tw-scale-y:1;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.items-center{align-items:center}.justify-center{justify-content:center}.gap-6{gap:1.5rem}.gap-4{gap:1rem}.self-center{align-self:center}.rounded-lg{border-radius:0.5rem}.rounded-full{border-radius:9999px}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.bg-red-50{--tw-bg-opacity:1;background-color:rgb(254 242 242 / var(--tw-bg-opacity))}.bg-dots-darker{background-image:url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 30 30' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.22676 0C1.91374 0 2.45351 0.539773 2.45351 1.22676C2.45351 1.91374 1.91374 2.45351 1.22676 2.45351C0.539773 2.45351 0 1.91374 0 1.22676C0 0.539773 0.539773 0 1.22676 0Z' fill='rgba(0,0,0,0.07)'/%3E%3C/svg%3E")}.from-gray-700\/50{--tw-gradient-from:rgb(55 65 81 / 0.5);--tw-gradient-to:rgb(55 65 81 / 0);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-transparent{--tw-gradient-to:rgb(0 0 0 / 0);--tw-gradient-stops:var(--tw-gradient-from), transparent, var(--tw-gradient-to)}.bg-center{background-position:center}.stroke-red-500{stroke:#ef4444}.stroke-gray-400{stroke:#9ca3af}.p-6{padding:1.5rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.text-center{text-align:center}.text-right{text-align:right}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.font-semibold{font-weight:600}.leading-relaxed{line-height:1.625}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-gray-500\/20{--tw-shadow-color:rgb(107 114 128 / 0.2);--tw-shadow:var(--tw-shadow-colored)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.selection\:bg-red-500 *::selection{--tw-bg-opacity:1;background-color:rgb(239 68 68 / var(--tw-bg-opacity))}.selection\:text-white *::selection{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.selection\:bg-red-500::selection{--tw-bg-opacity:1;background-color:rgb(239 68 68 / var(--tw-bg-opacity))}.selection\:text-white::selection{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.hover\:text-gray-900:hover{--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity))}.hover\:text-gray-700:hover{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity))}.focus\:rounded-sm:focus{border-radius:0.125rem}.focus\:outline:focus{outline-style:solid}.focus\:outline-2:focus{outline-width:2px}.focus\:outline-red-500:focus{outline-color:#ef4444}.group:hover .group-hover\:stroke-gray-600{stroke:#4b5563}.z-10{z-index: 10}@media (prefers-reduced-motion: no-preference){.motion-safe\:hover\:scale-\[1\.01\]:hover{--tw-scale-x:1.01;--tw-scale-y:1.01;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}}@media (prefers-color-scheme: dark){.dark\:bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39 / var(--tw-bg-opacity))}.dark\:bg-gray-800\/50{background-color:rgb(31 41 55 / 0.5)}.dark\:bg-red-800\/20{background-color:rgb(153 27 27 / 0.2)}.dark\:bg-dots-lighter{background-image:url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 30 30' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.22676 0C1.91374 0 2.45351 0.539773 2.45351 1.22676C2.45351 1.91374 1.91374 2.45351 1.22676 2.45351C0.539773 2.45351 0 1.91374 0 1.22676C0 0.539773 0.539773 0 1.22676 0Z' fill='rgba(255,255,255,0.07)'/%3E%3C/svg%3E")}.dark\:bg-gradient-to-bl{background-image:linear-gradient(to bottom left, var(--tw-gradient-stops))}.dark\:stroke-gray-600{stroke:#4b5563}.dark\:text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity))}.dark\:text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.dark\:shadow-none{--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.dark\:ring-1{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.dark\:ring-inset{--tw-ring-inset:inset}.dark\:ring-white\/5{--tw-ring-color:rgb(255 255 255 / 0.05)}.dark\:hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.group:hover .dark\:group-hover\:stroke-gray-400{stroke:#9ca3af}}@media (min-width: 640px){.sm\:fixed{position:fixed}.sm\:top-0{top:0px}.sm\:right-0{right:0px}.sm\:ml-0{margin-left:0px}.sm\:flex{display:flex}.sm\:items-center{align-items:center}.sm\:justify-center{justify-content:center}.sm\:justify-between{justify-content:space-between}.sm\:text-left{text-align:left}.sm\:text-right{text-align:right}}@media (min-width: 768px){.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}}@media (min-width: 1024px){.lg\:gap-8{gap:2rem}.lg\:p-8{padding:2rem}}
-        </style>
-    </head>
-    <body class="antialiased">
-        <div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
-            @if (Route::has('login'))
-                <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
-                    @auth
-                        <a href="{{ url('/home') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Home</a>
-                    @else
-                        <a href="{{ route('login') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Log in</a>
+<!-- ================================HEADER START================================ -->
+<header class="fcontainer header">
+    <div class="logoDiv">
+        <div class="imgDiv"><a href=""><img src="img/cartoon-1280-1280.jpg" alt="" class="logo"></a></div>
+    </div>      
+    <nav class="navbarDiv">
+        <ul class="fcontainer logosRight1">
+            <li class="">
+                <a href="" class="linkNav"><i class="fa fa-home"></i></a>
+                <!-- <a href="" class="linkNav"><div class="imgDiv"><img src="img/house.png" alt=""></div></a> -->
+            </li>
+            <li class="linkNavDiv">
+                <a href="#CategoryPageHead" class="linkNav">CategoryPAGE</a>
+            </li>
+            <li class="linkNavDiv">
+                <a href="" class="linkNav">রাজনীতি</a>
+            </li>
+            <li class="linkNavDiv">
+                <a href="" class="linkNav">আইন ও আদালত</a>
+            </li>
+            <li class="linkNavDiv">
+                <a href="" class="linkNav">আন্তর্জাতিক</a>
+            </li>
+            <li class="linkNavDiv">
+                <a href="" class="linkNav">খেলা</a>
+            </li>
+            <li class="linkNavDiv">
+                <a href="" class="linkNav">বিনোদন</a>
+            </li>
+            <li class="linkNavDiv">
+                <a href="" class="linkNav">তথ্যপ্রযুক্তি</a>
+            </li>
+            <li class="linkNavDiv">
+                <a href="" class="linkNav">শিল্প-সাহিত্য</a>
+            </li>
+            <li class="linkNavDiv">
+                <a href="" class="linkNav">লাইফস্টাইল</a>
+            </li>
+            <li class="linkNavDiv">
+                <a href="" class="linkNav">জেলার খবর</a>
+            </li>
+        </ul>
+        <div class="hrNavbar"></div>
+        <ul class="fcontainer logosRight2">
+            <li class="linkNavDiv"><a href="#SingleCategoryPageHead" class="linkNav">SinglePAGE</a></li>
+            <li class="linkNavDiv"><a href="" class="linkNav">অর্থনীতি-ব্যবসা</a></li>
+            <li class="linkNavDiv"><a href="" class="linkNav">স্বাস্থ্য</a></li>
+            <li class="linkNavDiv"><a href="" class="linkNav">শিক্ষা</a></li>
+            <li class="linkNavDiv"><a href="" class="linkNav">ইসলাম</a></li>
+            <li class="linkNavDiv"><a href="" class="linkNav">ভারত</a></li>
+            <li class="linkNavDiv"><a href="" class="linkNav">ক্যারিয়ার</a></li>
+            <li class="linkNavDiv"><a href="" class="linkNav">রাশিফল</a></li>
+            <li class="linkNavDiv"><a href="" class="linkNav">নির্বাচন ও ইসি</a></li>
+            <li class="linkNavDiv"><a href="" class="linkNav">শেয়ারবাজার</a></li>
+            <li class="linkNavDiv"><a href="" class="linkNav">
+                আরও<span class="caret"></span></a>
+                <div class="sub-menu-1">
+                  <ul>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Something else here</a></li>
+                  </ul>
+                  
+                </div>                                          
+            </li>
+        </ul>
+    </nav>  
+</header>
+<!-- ================================HEADER END================================ -->
 
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Register</a>
-                        @endif
-                    @endauth
+<!-- !!!================================MobileSECTION Start================================!!! -->
+<!-- ================================MobileNAVBAR Start================================ -->
+<div class="mobileNavbarDisplay">
+    <div class="fcontainer mobileNavbar">
+        <div class="mobileNavberBtn">
+            <div class="imgDiv mobileNavIcon menuOutline"><img src="img/menu-outline.svg" alt=""></div>
+            <div class="imgDiv mobileNavIcon closeOutline">
+                <p class="menu">Menu</p>
+                <p class="close">&times;</p>
+            </div>
+        </div>
+        <div class="logoDiv">
+            <div class="imgDiv"><a href=""><img src="img/cartoon-1280-1280.jpg" alt="" class="logo"></a></div>
+        </div>
+        <div class="forMobileSearch">           
+            <i class="fa-solid fa-magnifying-glass searchIcon"></i>
+            <a class="mobileBtnLanguage" href="#">English</a>
+        </div>
+        <ul class="mobileNavbarDiv">            
+            <li class="linkNavDiv">
+                <a href="#CategoryPageHead" class="linkNav">CategoryPAGE</a>
+            </li>
+            <li class="linkNavDiv">
+                <a href="" class="linkNav">রাজনীতি</a>
+            </li>
+            <li class="linkNavDiv">
+                <a href="" class="linkNav">আইন ও আদালত</a>
+            </li>
+            <li class="linkNavDiv">
+                <a href="" class="linkNav">আন্তর্জাতিক</a>
+            </li>
+            <li class="linkNavDiv">
+                <a href="" class="linkNav">খেলা</a>
+            </li>
+            <li class="linkNavDiv">
+                <a href="" class="linkNav">বিনোদন</a>
+            </li>
+            <li class="linkNavDiv">
+                <a href="" class="linkNav">তথ্যপ্রযুক্তি</a>
+            </li>
+            <li class="linkNavDiv">
+                <a href="" class="linkNav">শিল্প-সাহিত্য</a>
+            </li>
+            <li class="linkNavDiv">
+                <a href="" class="linkNav">লাইফস্টাইল</a>
+            </li>
+            <li class="linkNavDiv">
+                <a href="" class="linkNav">জেলার খবর</a>
+            </li>
+            <li class="linkNavDiv">
+                <a href="#CategoryPageHead" class="linkNav">CategoryPAGE</a>
+            </li>
+            <li class="linkNavDiv">
+                <a href="" class="linkNav">রাজনীতি</a>
+            </li>
+            <li class="linkNavDiv">
+                <a href="" class="linkNav">আইন ও আদালত</a>
+            </li>
+            <li class="linkNavDiv">
+                <a href="" class="linkNav">আন্তর্জাতিক</a>
+            </li>
+            <li class="linkNavDiv">
+                <a href="" class="linkNav">খেলা</a>
+            </li>
+            <li class="linkNavDiv">
+                <a href="" class="linkNav">বিনোদন</a>
+            </li>
+            <li class="linkNavDiv">
+                <a href="" class="linkNav">তথ্যপ্রযুক্তি</a>
+            </li>
+            <li class="linkNavDiv">
+                <a href="" class="linkNav">শিল্প-সাহিত্য</a>
+            </li>
+            <li class="linkNavDiv">
+                <a href="" class="linkNav">লাইফস্টাইল</a>
+            </li>
+            <li class="linkNavDiv">
+                <a href="" class="linkNav">জেলার খবর</a>
+            </li>
+        </ul>
+    </div>
+    <ul class="fcontainer scrollNavbarDiv">
+        <li class="linkNavDiv"><a href="" class="linkNav">রাজনীতি</a></li>
+        <li class="linkNavDiv"><a href="" class="linkNav">আইন&nbsp;ও&nbsp;আদালত</a></li>
+        <li class="linkNavDiv"><a href="" class="linkNav">আন্তর্জাতিক</a></li>
+        <li class="linkNavDiv"><a href="" class="linkNav">খেলা</a></li>
+        <li class="linkNavDiv"><a href="" class="linkNav">তথ্যপ্রযুক্তি</a></li>
+        <li class="linkNavDiv"><a href="" class="linkNav">শিল্প&#x268A;সাহিত্য</a></li>
+        <li class="linkNavDiv"><a href="" class="linkNav">লাইফস্টাইল</a></li>
+        <li class="linkNavDiv"><a href="" class="linkNav">জেলার&nbsp;খবর</a></li>
+        <li class="linkNavDiv"><a href="" class="linkNav">খেলা</a></li>
+        <li class="linkNavDiv"><a href="" class="linkNav">রাজনীতি</a></li>
+    </ul>
+</div>
+<!-- mobile searchHover --><!-- mobile searchHover -->
+<div class="searchHover">
+    <div class="closeDiv">
+        <span class="searchHoverText">search</span>
+        <span class="searchHoverClose">&times;</span>
+    </div>
+    <div class="closeDiv">
+        <input type="search" class="searchHoverInput" placeholder="ENHANCED BY Google">
+        <i class="fa-solid fa-magnifying-glass searchHoverIcon"></i>
+    </div>
+</div>
+<!-- ================================MobileNAVBAR End================================ -->
+<!-- mobile Main Heading -->
+<div class="mobile overlay">
+    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+    <h2 class="overlayHead">ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</h2>
+</div>
+<!-- under tow column -->
+<div class="mobile gmcontainer underMobile">
+    <a class="content">
+        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+        <p>ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
+    </a>
+    <a class="content">
+        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+        <p>ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
+    </a>
+    <a class="content">
+        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+        <p>ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
+    </a>
+    <a class="content">
+        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+        <p>ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
+    </a>
+    <a class="content">
+        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+        <p>ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
+    </a>
+    <a class="content">
+        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+        <p>ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
+    </a>
+    <a class="content">
+        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+        <p>ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
+    </a>
+    <a class="content">
+        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+        <p>ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
+    </a>
+    <a class="content">
+        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+        <p>ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
+    </a>
+</div>
+<!-- Heading each -->
+<div class="mobile">
+<h5>পারফরম্যান্স</h5>   
+<div class="fmcontainer tourLeft2 CategoryPagetourLeft2">
+<a>
+    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+    <p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>  
+    <span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
+</a>
+<a>
+    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+    <p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>  
+    <span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
+</a>
+<a>
+    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+    <p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>  
+    <span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
+</a>
+<a>
+    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+    <p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>  
+    <span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
+</a>
+<a>
+    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+    <p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>  
+    <span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
+</a>
+</div>
+</div>
+<!-- Heading Diffrent Play -->
+<div class="mobile">
+<h5 class="playHead">খেলা</h5>
+<div>
+    <span class="btnNot">খেলা</span>
+    <span class="btnNot">ক্রিকেট</span>
+    <span class="btnNot">ফুটবল</span>
+</div>
+<br><br>    
+<div class="fmcontainer tourLeft2 CategoryPagetourLeft2">
+<a>
+    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+    <p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>  
+    <span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
+</a>
+<a>
+    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+    <p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>  
+    <span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
+</a>
+</div>
+</div>
+<!-- photo gellary -->
+<div class="mobile">
+<h5>ফটো গ্যালারি</h5>
+<div class="gmcontainer photoRight">
+    <a>
+        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+    </a>
+    <a>
+        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+    </a>
+    <a>
+        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+    </a>
+    <a>
+        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+    </a>
+    <a>
+        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+    </a>
+    <a>
+        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+    </a>    
+    <a>
+        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+    </a>
+    <a>
+        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+    </a>
+    <a>
+        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+    </a>    
+</div>
+<div class="gmcontainer photoRightTwo">
+    <a>
+        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+    </a>
+    <a>
+        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+    </a>
+</div>
+</div>
+
+<!-- Mobile Photo DETAILS Start -->
+<div class="mobile">
+    <!-- ================================CategoryPage START================================ -->
+    <section class="top CategoryPage">
+        <div>           
+            <!-- ================================MAIN START================================ -->
+            <h1 class="pTitle">১৭ মার্চ, ২০২৪ = Photo DETAILS</h1>
+            <div class="photoLeft">
+                <div class="shareCountDiv">
+                    <div class="shareCount">0</div>
+                    <button class="btn socialShare fb"><i class="fa-brands fa-facebook"></i> Share</button>
                 </div>
-            @endif
-
-            <div class="max-w-7xl mx-auto p-6 lg:p-8">
-                <div class="flex justify-center">
-                    <svg viewBox="0 0 62 65" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-16 w-auto bg-gray-100 dark:bg-gray-900">
-                        <path d="M61.8548 14.6253C61.8778 14.7102 61.8895 14.7978 61.8897 14.8858V28.5615C61.8898 28.737 61.8434 28.9095 61.7554 29.0614C61.6675 29.2132 61.5409 29.3392 61.3887 29.4265L49.9104 36.0351V49.1337C49.9104 49.4902 49.7209 49.8192 49.4118 49.9987L25.4519 63.7916C25.3971 63.8227 25.3372 63.8427 25.2774 63.8639C25.255 63.8714 25.2338 63.8851 25.2101 63.8913C25.0426 63.9354 24.8666 63.9354 24.6991 63.8913C24.6716 63.8838 24.6467 63.8689 24.6205 63.8589C24.5657 63.8389 24.5084 63.8215 24.456 63.7916L0.501061 49.9987C0.348882 49.9113 0.222437 49.7853 0.134469 49.6334C0.0465019 49.4816 0.000120578 49.3092 0 49.1337L0 8.10652C0 8.01678 0.0124642 7.92953 0.0348998 7.84477C0.0423783 7.8161 0.0598282 7.78993 0.0697995 7.76126C0.0884958 7.70891 0.105946 7.65531 0.133367 7.6067C0.152063 7.5743 0.179485 7.54812 0.20192 7.51821C0.230588 7.47832 0.256763 7.43719 0.290416 7.40229C0.319084 7.37362 0.356476 7.35243 0.388883 7.32751C0.425029 7.29759 0.457436 7.26518 0.498568 7.2415L12.4779 0.345059C12.6296 0.257786 12.8015 0.211853 12.9765 0.211853C13.1515 0.211853 13.3234 0.257786 13.475 0.345059L25.4531 7.2415H25.4556C25.4955 7.26643 25.5292 7.29759 25.5653 7.32626C25.5977 7.35119 25.6339 7.37362 25.6625 7.40104C25.6974 7.43719 25.7224 7.47832 25.7523 7.51821C25.7735 7.54812 25.8021 7.5743 25.8196 7.6067C25.8483 7.65656 25.8645 7.70891 25.8844 7.76126C25.8944 7.78993 25.9118 7.8161 25.9193 7.84602C25.9423 7.93096 25.954 8.01853 25.9542 8.10652V33.7317L35.9355 27.9844V14.8846C35.9355 14.7973 35.948 14.7088 35.9704 14.6253C35.9792 14.5954 35.9954 14.5692 36.0053 14.5405C36.0253 14.4882 36.0427 14.4346 36.0702 14.386C36.0888 14.3536 36.1163 14.3274 36.1375 14.2975C36.1674 14.2576 36.1923 14.2165 36.2272 14.1816C36.2559 14.1529 36.292 14.1317 36.3244 14.1068C36.3618 14.0769 36.3942 14.0445 36.4341 14.0208L48.4147 7.12434C48.5663 7.03694 48.7383 6.99094 48.9133 6.99094C49.0883 6.99094 49.2602 7.03694 49.4118 7.12434L61.3899 14.0208C61.4323 14.0457 61.4647 14.0769 61.5021 14.1055C61.5333 14.1305 61.5694 14.1529 61.5981 14.1803C61.633 14.2165 61.6579 14.2576 61.6878 14.2975C61.7103 14.3274 61.7377 14.3536 61.7551 14.386C61.7838 14.4346 61.8 14.4882 61.8199 14.5405C61.8312 14.5692 61.8474 14.5954 61.8548 14.6253ZM59.893 27.9844V16.6121L55.7013 19.0252L49.9104 22.3593V33.7317L59.8942 27.9844H59.893ZM47.9149 48.5566V37.1768L42.2187 40.4299L25.953 49.7133V61.2003L47.9149 48.5566ZM1.99677 9.83281V48.5566L23.9562 61.199V49.7145L12.4841 43.2219L12.4804 43.2194L12.4754 43.2169C12.4368 43.1945 12.4044 43.1621 12.3682 43.1347C12.3371 43.1097 12.3009 43.0898 12.2735 43.0624L12.271 43.0586C12.2386 43.0275 12.2162 42.9888 12.1887 42.9539C12.1638 42.9203 12.1339 42.8916 12.114 42.8567L12.1127 42.853C12.0903 42.8156 12.0766 42.7707 12.0604 42.7283C12.0442 42.6909 12.023 42.656 12.013 42.6161C12.0005 42.5688 11.998 42.5177 11.9931 42.4691C11.9881 42.4317 11.9781 42.3943 11.9781 42.3569V15.5801L6.18848 12.2446L1.99677 9.83281ZM12.9777 2.36177L2.99764 8.10652L12.9752 13.8513L22.9541 8.10527L12.9752 2.36177H12.9777ZM18.1678 38.2138L23.9574 34.8809V9.83281L19.7657 12.2459L13.9749 15.5801V40.6281L18.1678 38.2138ZM48.9133 9.14105L38.9344 14.8858L48.9133 20.6305L58.8909 14.8846L48.9133 9.14105ZM47.9149 22.3593L42.124 19.0252L37.9323 16.6121V27.9844L43.7219 31.3174L47.9149 33.7317V22.3593ZM24.9533 47.987L39.59 39.631L46.9065 35.4555L36.9352 29.7145L25.4544 36.3242L14.9907 42.3482L24.9533 47.987Z" fill="#FF2D20"/>
-                    </svg>
+                
+                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                <p>বিক্রির জন্য গাছের বাকল ও কাঠের অব্যবহৃত অংশ সংগ্রহ করে আনা হয়েছে। নেছারাবাদের সন্ধ্যা নদী থেকে ছবি তুলেছেন এন আমিন রাসেল।</p>
+            </div>
+            <div class="photoLeft">
+                <div class="shareCountDiv">
+                    <div class="shareCount">0</div>
+                    <button class="btn socialShare fb"><i class="fa-brands fa-facebook"></i> Share</button>
                 </div>
-
-                <div class="mt-16">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
-                        <a href="https://laravel.com/docs" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                            <div>
-                                <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
-                                    </svg>
-                                </div>
-
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Documentation</h2>
-
-                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laravel has wonderful documentation covering every aspect of the framework. Whether you are a newcomer or have prior experience with Laravel, we recommend reading our documentation from beginning to end.
-                                </p>
-                            </div>
-
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                            </svg>
+                
+                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                <p>বিক্রির জন্য গাছের বাকল ও কাঠের অব্যবহৃত অংশ সংগ্রহ করে আনা হয়েছে। নেছারাবাদের সন্ধ্যা নদী থেকে ছবি তুলেছেন এন আমিন রাসেল।</p>
+            </div>
+            <div class="photoLeft">
+                <div class="shareCountDiv">
+                    <div class="shareCount">0</div>
+                    <button class="btn socialShare fb"><i class="fa-brands fa-facebook"></i> Share</button>
+                </div>
+                
+                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                <p>বিক্রির জন্য গাছের বাকল ও কাঠের অব্যবহৃত অংশ সংগ্রহ করে আনা হয়েছে। নেছারাবাদের সন্ধ্যা নদী থেকে ছবি তুলেছেন এন আমিন রাসেল।</p>
+            </div>
+            <br><br><br>
+            <i class="copy">বাংলানিউজটোয়েন্টিফোর.কম'র প্রকাশিত/প্রচারিত কোনো সংবাদ, তথ্য, ছবি, আলোকচিত্র, রেখাচিত্র, ভিডিওচিত্র, অডিও কনটেন্ট কপিরাইট আইনে পূর্বানুমতি ছাড়া ব্যবহার করা যাবে না।</i>
+            <br><br><br>
+            <!-- ================================MAIN END================================ -->
+            <!-- ================================UNDER START================================ -->
+            <h2>আরো গ্যালারি</h2>
+            <div class="hrLife"></div>
+            <div class="hrLife"></div>
+            <div class="hrLife hrLifeLast"></div>
+            <div class="under">
+                <div>                   
+                    <div class="contentDiffrent">
+                        <a class="CategoryPageLink">
+                            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                            <p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
                         </a>
-
-                        <a href="https://laracasts.com" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                            <div>
-                                <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500">
-                                        <path stroke-linecap="round" d="M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z" />
-                                    </svg>
-                                </div>
-
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Laracasts</h2>
-
-                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
-                                </p>
-                            </div>
-
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                            </svg>
+                    </div>                  
+                </div>
+                <div>
+                    <div class="contentDiffrent">
+                        <a class="CategoryPageLink">
+                            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                            <p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
                         </a>
-
-                        <a href="https://laravel-news.com" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                            <div>
-                                <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5M6 7.5h3v3H6v-3z" />
-                                    </svg>
-                                </div>
-
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Laravel News</h2>
-
-                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
-                                </p>
-                            </div>
-
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                            </svg>
-                        </a>
-
-                        <div class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                            <div>
-                                <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.115 5.19l.319 1.913A6 6 0 008.11 10.36L9.75 12l-.387.775c-.217.433-.132.956.21 1.298l1.348 1.348c.21.21.329.497.329.795v1.089c0 .426.24.815.622 1.006l.153.076c.433.217.956.132 1.298-.21l.723-.723a8.7 8.7 0 002.288-4.042 1.087 1.087 0 00-.358-1.099l-1.33-1.108c-.251-.21-.582-.299-.905-.245l-1.17.195a1.125 1.125 0 01-.98-.314l-.295-.295a1.125 1.125 0 010-1.591l.13-.132a1.125 1.125 0 011.3-.21l.603.302a.809.809 0 001.086-1.086L14.25 7.5l1.256-.837a4.5 4.5 0 001.528-1.732l.146-.292M6.115 5.19A9 9 0 1017.18 4.64M6.115 5.19A8.965 8.965 0 0112 3c1.929 0 3.716.607 5.18 1.64" />
-                                    </svg>
-                                </div>
-
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Vibrant Ecosystem</h2>
-
-                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laravel's robust library of first-party tools and libraries, such as <a href="https://forge.laravel.com" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Forge</a>, <a href="https://vapor.laravel.com" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Vapor</a>, <a href="https://nova.laravel.com" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Nova</a>, and <a href="https://envoyer.io" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Envoyer</a> help you take your projects to the next level. Pair them with powerful open source libraries like <a href="https://laravel.com/docs/billing" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Cashier</a>, <a href="https://laravel.com/docs/dusk" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Dusk</a>, <a href="https://laravel.com/docs/broadcasting" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Echo</a>, <a href="https://laravel.com/docs/horizon" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Horizon</a>, <a href="https://laravel.com/docs/sanctum" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Sanctum</a>, <a href="https://laravel.com/docs/telescope" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Telescope</a>, and more.
-                                </p>
-                            </div>
-                        </div>
                     </div>
                 </div>
-
-                <div class="flex justify-center mt-16 px-0 sm:items-center sm:justify-between">
-                    <div class="text-center text-sm sm:text-left">
-                        &nbsp;
+                <div>
+                    <div class="contentDiffrent">
+                        <a class="CategoryPageLink">
+                            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                            <p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
+                        </a>
                     </div>
+                </div>              
+            </div>
+            <!-- ================================UNDER END================================ -->          
+        </div>
+        <div>
+            <!-- ================================SIDESCROLL START================================ -->
+            <div class="rightSide followSide">
+                <div class="gcontainer pageNameDiv">
+                    <div>
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    </div>
+                    <div>
+                        <h2 class="pageName"><a href="">pageName.com</a></h2>
+                        <p>4,615,048 followers</p>
+                    </div>
+                </div>
+                <div class="pageBtnDiv">
+                    <button class="btn btnFollow" id="btnFollow1"><a href="">Follow Page</a></button>
+                    <button class="btn btnFollow" id="btnFollow2"><a href="">Share</a></button>
+                </div>
+            </div>
+            <!-- ================================SIDESCROLL END================================ -->
+        </div>
+    </section>
+    <!-- ================================CategoryPage END================================ -->
+</div>
+<!-- Mobile Photo DETAILS End --><!-- Photo DETAILS End --><!-- Photo DETAILS End -->
 
-                    <div class="text-center text-sm text-gray-500 dark:text-gray-400 sm:text-right sm:ml-0">
-                        Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
+<!-- Mobile CATEGORY Page --><!-- Mobile CATEGORY Page --><!-- Mobile CATEGORY Page -->
+<div class="mobile">
+    <div class="CategoryPageNameDiv">
+        <a href="" class="linkNav"><i class="fa fa-home CategoryPageIcon"> &nbsp;</i></a><span>/ &nbsp;</span><span class="CategoryPageName">রাজনীতি</span>
+    </div>
+    <div class="overlay">
+        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+        <h2 class="overlayHead">ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</h2>
+    </div>
+    <div class="fmcontainer tourLeft2 CategoryPagetourLeft2">
+    <a>
+        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+        <p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>  
+        <span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
+    </a>
+    <a>
+        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+        <p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>  
+        <span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
+    </a>
+    <a>
+        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+        <p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>  
+        <span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
+    </a>
+    <a>
+        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+        <p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>  
+        <span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
+    </a>
+    <a>
+        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+        <p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>  
+        <span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
+    </a>
+    </div>
+    <div class="paginateBorder">
+        <div class="fmcontainer paginate">
+            <div class="paginateItems">&lt;</div>
+            <div class="paginateItems paginateItemsTwo">1</div>
+            <div class="paginateItems">2</div>
+            <div class="paginateItems">3</div>
+            <div class="paginateItems">4</div>
+            <div class="paginateItems">...</div>
+            <div class="paginateItems">111</div>
+            <div class="paginateItems">112</div>
+            <div class="paginateItems paginateItemsLast">&gt;</div>
+        </div>
+    </div>
+</div>
+<!-- Mobile CATEGORY Page --><!-- Mobile CATEGORY Page --><!-- Mobile CATEGORY Page -->
+
+<!-- Mobile Single Page --><!-- Mobile Single Page --><!-- Mobile Single Page -->
+<div class="mobile">
+    <div class="SingleMain">
+        <h1>রাজবাড়ীতে বাসের ধাক্কায় শ্বশুর-পুত্রবধূ নিহত</h1>   
+        <p>ডিস্ট্রিক্ট করেসপন্ডেন্ট | বাংলানিউজটোয়েন্টিফোর.কম</p>
+        <p>আপডেট: ২০১৫ ঘণ্টা, ফেব্রুয়ারি ২৪, ২০২৪</p>
+        <br><br>            
+        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+        <br>
+        <p>
+            <strong>রাজবাড়ী:</strong>
+            রাজবাড়ীতে চিকিৎসার জন্য হাসপাতালে যাওয়ার পথে বাসের ধাক্কায় অটোরিকশাযাত্রী শ্বশুর ও পুত্রবধূ নিহত হয়েছেন। এ দুর্ঘটনায় আহত হয়েছেন চালকসহ দুজন।
+
+            <br><br><br>
+            শনিবার (২৪ ফেব্রুয়ারি) দুপুরে সদর উপজেলার বাগমারা এলাকায় রাজবাড়ী-কুষ্টিয়া আঞ্চলিক মহাসড়কে এ দুর্ঘটনা ঘটে।
+
+            <br><br>
+            নিহতরা হলেন- রাজবাড়ীর কালুখালী উপজেলার লস্করদিয়া গ্রামের জাবেদ আলী (৭০) ও তার পুত্রবধূ খালেদা আক্তার (৩৫)।  
+
+            <br><br>
+            এ ঘটনায় অটোরিকশাচালকসহ বাহনটির আরেক যাত্রী আহত হয়েছেন। তারা রাজবাড়ী সদর হাসপাতালে চিকিৎসাধীন।
+
+            <br><br>
+            স্থানীয়দের বরাত দিয়ে পাংশা হাইওয়ে থানার উপ-পরিদর্শক (এসআই) উৎপল কুমার দাস বলেন, জাবেদ আলী ও তার পুত্রবধূ খালেদা আক্তার অটোরিকশায় করে রাজবাড়ী সদর হাসপাতালে চিকিৎসকের কাছে যাচ্ছিলেন। বাগমারা এলাকায় পৌঁছালে রাজবাড়ী থেকে কুষ্টিয়াগামী রাবেয়া পরিবহনের যাত্রীবাহী একটি বাস অটোরিকশাটিকে সামনে থেকে ধাক্কা দেয়। এতে ঘটনাস্থলেই খালেদা আক্তার মারা যান। আহত জাবেদ আলী ও অটোরিকশাচালকসহ তিনজনকে উদ্ধার করে রাজবাড়ী সদর হাসপাতালে পাঠানো হয়। জাবেদ আলীর অবস্থা আশঙ্কাজনক হওয়ায় তাকে ফরিদপুর বঙ্গবন্ধু মেডিকেল কলেজ হাসপাতালে নিয়ে যাওয়া হয়। সেখানে বিকেল ৪টার দিকে চিকিৎসাধীন অবস্থায় তিনি মারা যান।
+
+            <br><br>
+            এসআই উৎপল কুমার দাস আরও বলেন, দুর্ঘটনার পর রাবেয়া পরিবহনের বাসটি পালিয়ে যায়। বাসটি শনাক্ত করে আটকের চেষ্টা চলছে। খালেদা আক্তারের মরদেহ পরিবারের কাছে হস্তান্তর করা হয়েছে। জাবেদ আলীর মরদেহ হস্তান্তরের প্রক্রিয়া চলছে। এ ব্যাপারে পরবর্তী আইনি কার্যক্রম প্রক্রিয়াধীন।
+        </p>
+        <br>
+        <p>বাংলাদেশ সময়: ২০১০ ঘণ্টা, ফেব্রুয়ারি ২৪, ২০২৪</p>
+        <p>আরএ</p>
+        <br>
+        <b class="moreRead">ক্লিক করুন, আরো পড়ুন <i class="fa fa-arrow-right"></i></b>
+        <button class="btn moreReadBtn">সড়ক দুর্ঘটনা</button><br><br>
+        <div>
+            <button class="btn socialShare fb"><i class="fa-solid fa-thumbs-up"></i> Like</button>
+            <button class="btn socialShare fb"><i class="fa-brands fa-facebook"></i> Share</button>
+            <button class="btn socialShare tt"><i class="fa-brands fa-x-twitter"></i> Post</button>
+            <br><br>
+        </div>
+        <div>
+            <b>ইউটিউব সাবস্ক্রাইব করুন</b>
+            <button class="btn socialShare yt"><i class="fa-brands fa-youtube"></i> YouTube</button>
+            <br><br>
+        </div>
+    </div>
+    <br><br>
+
+
+    <h5 class="singleMobileHead">এই বিভাগের সর্বশেষ সংবাদ</h5>  
+    <div class="fmcontainer tourLeft2 CategoryPagetourLeft2">
+        <a>
+            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+            <p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>  
+            <span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
+        </a>
+        <a>
+            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+            <p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>  
+            <span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
+        </a>
+        <a>
+            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+            <p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>  
+            <span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
+        </a>
+        <a>
+            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+            <p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>  
+            <span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
+        </a>
+        <a>
+            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+            <p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>  
+            <span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
+        </a>
+    </div>
+
+
+
+
+    <h5 class="singleMobileHead">আজকের সর্বশেষ খবর</h5> 
+    <div class="fmcontainer tourLeft2 CategoryPagetourLeft2">
+        <a>
+            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+            <p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>  
+            <span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
+        </a>
+        <a>
+            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+            <p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>  
+            <span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
+        </a>
+        <a>
+            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+            <p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>  
+            <span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
+        </a>
+        <a>
+            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+            <p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>  
+            <span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
+        </a>
+        <a>
+            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+            <p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>  
+            <span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
+        </a>
+    </div>
+</div>
+<!-- Mobile Single Page --><!-- Mobile Single Page --><!-- Mobile Single Page -->
+
+
+<!-- !!!================================MobileSECTION End================================!!! -->
+
+
+
+
+
+<div class="border">
+<!-- ================================TOP START================================ -->
+<section class="gcontainer top">
+    <!-- ================================MAIN START================================ -->
+    <div>
+        <main>
+        <div class="gcontainer main">
+            <div>
+                <a><div class="leftMain">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <h1 class="heading">তদারকদের তোড়জোড়ের প্রভাব নেই, চাল-ডাল বিক্রি বাড়তি দামেই</h1>
+                    <p class="headingP">ঢাকা: মাসখানেক আগে হঠাৎ দাম বেড়ে অস্থির হয়ে ওঠে চাল ও ডালের বাজার। দাম নিয়ন্ত্রণে তোড়জোড় শুরু করে সরকারি তদারকি সংস্থাগুলো।  এতে</p>
+                </div></a>
+            </div>
+            <div>
+                <div class="gcontainer mainIn">
+                    <div>
+                        <a><div class="leftMainIn">
+                            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                            <p>‘লাশটা দাফন কর, যাদের সঙ্গে মারামারি হইছে মীমাংসা করে দেব’</p>                               
+                        </div></a>                          
+                    </div>
+                    <div>
+                        <a><div class="leftMainIn">
+                            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                            <p>হাকালুকি হাওরের মৎস্যসম্পদ রক্ষায় নানান উদ্যোগ</p>                               
+                        </div></a>                          
                     </div>
                 </div>
             </div>
         </div>
-    </body>
+        </main>
+        <!-- ================================MAIN END================================ -->
+        <!-- ================================UNDER START================================ -->
+        <div class="gcontainer under">
+            <div>
+                <a>
+                    <div class="content">
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                        <p>ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <div class="content">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p></p>
+                </div>
+            </div>
+            <div>
+                <div class="content">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p></p>
+                </div>
+            </div>
+            <div>
+                <div class="content">
+                    <div class="imgDiv"><img src="img/AAAall.jpg" alt=""></div>
+                    <p></p>
+                </div>
+            </div>
+            <div>
+                <div class="content">
+                    <div class="imgDiv"><img src="img/AAAall.jpg" alt=""></div>
+                    <p></p>
+                </div>
+            </div>
+            <div>
+                <div class="content">
+                    <div class="imgDiv"><img src="img/AAAall.jpg" alt=""></div>
+                    <p></p>
+                </div>
+            </div>
+            <div>
+                <div class="content">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p></p>
+                </div>
+            </div>
+            <div>
+                <div class="content">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p></p>
+                </div>
+            </div>
+            <div>
+                <div class="content">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p></p>
+                </div>
+            </div>
+            <div>
+                <div class="content">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p></p>
+                </div>
+            </div>
+            <div>
+                <div class="content">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p></p>
+                </div>
+            </div>
+            <div>
+                <div class="content">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p></p>
+                </div>
+            </div>
+            
+        </div>
+        <!-- ================================UNDER END================================ -->
+    </div>
+    <div>
+        <!-- ================================SIDESCROLL START================================ -->
+        <div class="gcontainer sideScroll">
+            <div>
+                    <button class="btnSide">সর্বশেষ</button>&nbsp;<button class="btnSide">পাঠকের পছন্দ</button>
+            </div>
+            <div class="itmemsSide">
+                <a><p>ফতুল্লায় যাবজ্জীবন সাজাপ্রাপ্ত পলাতক আসামি গ্রেপ্তার</p></a>
+                <span class="right">৪ ঘণ্টা আগে</span>
+            </div>
+            <div class="itmemsSide">
+                <p></p>
+                <span class="right"></span>
+            </div>
+            <div class="itmemsSide">
+                <p></p>
+                <span class="right"></span>
+            </div>
+            <div class="itmemsSide">
+                <p></p>
+                <span class="right"></span>
+            </div>
+            <div class="itmemsSide">
+                <p></p>
+                <span class="right"></span>
+            </div>
+            <div class="itmemsSide">
+                <p></p>
+                <span class="right"></span>
+            </div>
+            <div class="itmemsSide">
+                <p></p>
+                <span class="right"></span>
+            </div>
+            <div class="itmemsSide">
+                <p></p>
+                <span class="right"></span>
+            </div>
+            <div class="itmemsSide">
+                <p></p>
+                <span class="right"></span>
+            </div>
+            <div class="itmemsSide">
+                <p></p>
+                <span class="right"></span>
+            </div>
+            <div class="itmemsSide">
+                <p></p>
+                <span class="right"></span>
+            </div>
+            <div class="itmemsSide">
+                <p></p>
+                <span class="right"></span>
+            </div>
+            <div class="itmemsSide">
+                <p></p>
+                <span class="right"></span>
+            </div>
+            <div class="itmemsSide">
+                <p></p>
+                <span class="right"></span>
+            </div>
+        </div>
+        <!-- ================================SIDESCROLL END================================ -->
+    </div>
+</section>
+<!-- ================================TOP END================================ -->
+
+<!-- ================================POLITICS START================================ -->
+<section class="gcontainer politicsNews">
+    <!-- ================================POLITICS-LEFT START================================ -->
+    <div class="gcontainer leftSide">
+        <!-- ================================POLITICS-LEFT--1 START================================ -->             
+        <div class="fcontainer politicsDiv">
+            <div>
+                <h2>জাতীয়</h2>
+                <div class="hrLife"></div><div class="hrLife"></div><div class="hrLife"></div>
+            </div>
+            <div>
+                <a>
+                    <div class="politicsImg">
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                        <p class="pDiffrent politicsHead">কাশিয়ানীতে আগুনে পুড়ে নারীর মৃত্যু</p>
+                    </div>
+                </a>                    
+            </div>
+            <div>
+                <a>
+                    <div class="politicsImg">
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                        <p class="pDiffrent politicsHead">গাংনীতে বরইয়ের আঁটি শ্বাসনালিতে আটকে স্কুলছাত্রের মৃত্যু</p>      
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <div class="politicsImg">
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                        <p class="pDiffrent politicsHead">ডিবি পরিচয়ে ছিনতাই, ফুটেজ দেখে গ্রেপ্তার</p>
+                    </div>
+                </a>
+            </div>
+            <div><button class="btn btnAll">এই বিভাগের সব খবর</button></div>
+        </div>
+        <!-- ================================POLITICS-LEFT--2 START================================ -->
+        <div class="fcontainer politicsDiv">
+            <div>
+                <h2>জাতীয়</h2>
+                <div class="hrLife"></div><div class="hrLife"></div><div class="hrLife"></div>
+            </div>
+            <div>
+                <a>
+                    <div class="politicsImg">
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                        <p class="pDiffrent politicsHead">কাশিয়ানীতে আগুনে পুড়ে নারীর মৃত্যু</p>
+                    </div>
+                </a>                    
+            </div>
+            <div>
+                <a>
+                    <div class="politicsImg">
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                        <p class="pDiffrent politicsHead">গাংনীতে বরইয়ের আঁটি শ্বাসনালিতে আটকে স্কুলছাত্রের মৃত্যু</p>      
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <div class="politicsImg">
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                        <p class="pDiffrent politicsHead">ডিবি পরিচয়ে ছিনতাই, ফুটেজ দেখে গ্রেপ্তার</p>
+                    </div>
+                </a>
+            </div>
+            <div><button class="btn btnAll">এই বিভাগের সব খবর</button></div>
+        </div>                          
+    </div>
+    <!-- ================================POLITICS-LEFT END================================ -->
+    <div>
+        <!-- ================================POLITICS-RIGHT START================================ -->
+        <div class="rightSide followSide">
+            <div class="gcontainer pageNameDiv">
+                <div>
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                </div>
+                <div>
+                    <h2 class="pageName"><a href="">pageName.com</a></h2>
+                    <p>4,615,048 followers</p>
+                </div>
+            </div>
+            <div class="pageBtnDiv">
+                <button class="btn btnFollow" id="btnFollow1"><a href="">Follow Page</a></button>
+                <button class="btn btnFollow" id="btnFollow2"><a href="">Share</a></button>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ================================POLITICS END================================ -->
+
+<!-- ================================DAILY START================================ -->
+<section class="gcontainer daily">
+    <div class="gcontainerTwo">
+        <!-- ================================DAILY-LEFT START================================ -->
+        <div class="fcontainer dailyHead">          
+            <div>
+                <h2>প্রতিদিন</h2>
+                <div class="hrLife"></div><div class="hrLife"></div><div class="hrLife hrLifeLast"></div>
+            </div>
+        </div>          
+        <div class="gcontainer dailyLeft">
+            <!-- ================================DAILY-LEFT--1 START================================ -->
+            <div class="dailyLeft1">
+                <a href="">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p class="pDiffrent">অবৈধ হাসপাতাল-ক্লিনিক বন্ধে শুরু হচ্ছে অভিযান</p>
+                </a>                    
+            </div>
+            <!-- ================================DAILY-LEFT--1 END================================ -->
+            <div>
+                <!-- ================================DAILY-LEFT--2 START================================ -->
+                <div class="fcontainer dailyLeft2">
+                    <div>
+                        <a href="">
+                            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                            <p class="pDiffrent">অবৈধ হাসপাতাল-ক্লিনিক বন্ধে শুরু হচ্ছে অভিযান</p>
+                        </a>
+                    </div>
+                    <div class="hrDesign"></div>
+                    <div>
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                        <p class="pDiffrent">অবৈধ হাসপাতাল-ক্লিনিক বন্ধে শুরু হচ্ছে অভিযান</p>
+                    </div>
+                    <div class="hrDesign"></div>
+                    <div>
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                        <p class="pDiffrent">অবৈধ হাসপাতাল-ক্লিনিক বন্ধে শুরু হচ্ছে অভিযান</p>
+                    </div>
+                    <div class="hrDesign"></div>
+                    <div>
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                        <p class="pDiffrent"></p>
+                    </div>
+                    <div class="hrDesign"></div>
+                    <div>
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                        <p class="pDiffrent"></p>
+                    </div>
+                    <div class="hrDesign"></div>
+                    <div>
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                        <p class="pDiffrent"></p>
+                    </div>
+                </div>
+                <!-- ================================DAILY-LEFT--2 END================================ -->
+            </div>
+        </div>
+        <div class="btnDiv">
+            <button class="btn btnDiffrent btnEcom">অর্থনীতি-ব্যবসা</button>
+            <button class="btn btnDiffrent">শেয়ারবাজার</button>
+            <hr>
+        </div>
+        <!-- ================================DAILY-LEFT-LAST START================================ -->
+        <div class="gcontainer dailyLeftLast">
+            <!-- ================================DAILY-LEFT-LAST--1 START================================ -->
+            <div class="dailyLeftLast1">
+                <a>
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <h2>হাকালুকি হাওরের মৎস্যসম্পদ রক্ষায় নানান উদ্যোগ</h2>
+                </a>
+                <p>ঢাকা: গত কয়েক বছর ধরেই রমজানে ঢাকা উত্তরের ভোজনরসিকদের আকর্ষণের কেন্দ্র হয়ে উঠেছে ইন্টারন্যাশনাল কনভেনশন সিটি বসুন্ধরার</p>
+            </div>
+            <!-- ================================DAILY-LEFT-LAST--1 END================================ -->
+            <!-- ================================DAILY-LEFT-LAST--2 START================================ -->
+            <div class="dailyLeftLast2">
+                <div class="borderBot">
+                    <a><p>অবৈধ হাসপাতাল-ক্লিনিক বন্ধে শুরু হচ্ছে অভিযান</p></a>
+                </div>
+                <div class="borderBot">
+                    <a><p>অবৈধ হাসপাতাল-ক্লিনিক বন্ধে শুরু হচ্ছে অভিযান</p></a>
+                </div>
+                <div class="borderBot">
+                    <p></p>
+                </div>
+                <div class="borderBot">
+                    <p></p>
+                </div>
+                <div class="borderBot">
+                    <p></p>
+                </div>
+                <div class="borderBotNot">
+                    <p>gfffff</p>
+                </div>
+            </div>
+            <!-- ================================DAILY-LEFT-LAST--2 END================================ -->
+        </div>
+    </div>
+    <div class="gcontainerTwo">
+        <!-- ================================DAILY-RIGHT START================================ -->                      
+        <div class="international dailyRight">
+            <div class="gcontainerMob">
+                <div class="fcontainer dailyHead">
+                    <div>
+                        <h2>আন্তর্জাতিক</h2>
+                        <div class="hrLife"></div><div class="hrLife"></div><div class="hrLife hrLifeRightLast"></div>
+                    </div>
+                </div>
+                <div class="borderBotFirst">
+                    <a>
+                        <div class="imgDiv">
+                            <img src="img/all.jpg" alt="">
+                        </div>
+                        <p class="pDiffrent">রাশিয়ার ৫ শতাধিক ব্যক্তি-প্রতিষ্ঠানের ওপর নিষেধাজ্ঞার ঘোষণা যুক্তরাষ্ট্রের</p>
+                    </a>
+                </div>
+                <div class="borderBot">
+                    <a>
+                        <p>রাশিয়ার ৫ শতাধিক ব্যক্তি-প্রতিষ্ঠানের ওপর নিষেধাজ্ঞার ঘোষণা যুক্তরাষ্ট্রের</p>
+                    </a>
+                </div>
+                <div class="borderBot">
+                    <p></p>
+                </div>
+                <div class="borderBot">
+                    <p></p>
+                </div>
+                <div class="borderBot">
+                    <p></p>
+                </div>
+                <div class="borderBot">
+                    <p></p>
+                </div>  
+            </div>
+            <div class="gcontainerMob">
+                <!-- ================================DAILY-RIGHT-VIDEO START================================ -->
+                <div class="fcontainer dailyHead video">
+                    <div>
+                        <h2>Video Gellary</h2>
+                        <div class="hrLife"></div><div class="hrLife"></div><div class="hrLife hrLifeRightLast"></div>
+                    </div>
+                </div>
+                <div class="borderBotNot">
+                    <a>
+                        <div class="imgDiv">
+                            <img src="img/all.jpg" alt="">
+                        </div>
+                        <p>রাশিয়ার ৫ শতাধিক ব্যক্তি-প্রতিষ্ঠানের ওপর নিষেধাজ্ঞার ঘোষণা যুক্তরাষ্ট্রের</p>
+                    </a>
+                </div>                              
+                <div class="fcontainer borderBotNot videoSmall">
+                    <a>
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                        <p>রাশিয়ার ৫ শতাধিক ব্যক্তি-প্রতিষ্ঠানের ওপর নিষেধাজ্ঞার ঘোষণা যুক্তরাষ্ট্রের</p>
+                    </a>
+                </div>
+                <div class="fcontainer borderBotNot videoSmall">
+                    <a>
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                        <p>রাশিয়ার ৫ শতাধিক ব্যক্তি-প্রতিষ্ঠানের ওপর নিষেধাজ্ঞার ঘোষণা যুক্তরাষ্ট্রের</p>
+                    </a>
+                </div>
+            </div>
+            <!-- ================================DAILY-RIGHT-VIDEO END================================ -->
+        </div>
+    </div>
+</section>
+<!-- ================================DAILY END================================ -->
+
+<!-- ================================PLAY START================================ -->
+<div class="outHead">
+    <button class="btn btnDiffrent btnPlay">খেলা</button>
+    <button class="btn btnDiffrent btnDiffrentCric">ক্রিকেট</button>
+    <button class="btn btnDiffrent btnDiffrentCric">ফুটবল</button>
+    <hr>
+</div>
+<section class="gcontainer play">
+    <div>
+        <!-- ================================PLAY-LEFT START================================ -->
+        <div class="gcontainer playLeft">
+            <div class="playLeft1">
+                <a>
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p class="pCric">অবৈধ হাসপাতাল-ক্লিনিক বন্ধে শুরু হচ্ছে অভিযান</p>
+                </a>
+                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                <p class="pCric">অবৈধ হাসপাতাল-ক্লিনিক বন্ধে শুরু হচ্ছে অভিযান</p>
+            </div>
+            <div class="playLeft2">
+                <a>
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p class="pPlay">বায়ার্নের রেকর্ড টপকে শিরোপার আরও কাছে লেভারকুসেন</p>
+                </a>
+                <p>বুন্দেসলিগায় উড়ছে জাবি আলোনসোর বায়ার লেভারকুসেন। গত ম্যাচের জয়ে তারা ছুঁয়ে ফেলেছিল বায়ার্ন মিউনিখের ৩২ ম্যাচ অপরাজিত থাকার রেকর্ড। আর গতকাল রাতে মাইনজের বিপক্ষে ২-১ ব্যবধানের জয়ের রেকর্ড</p>
+            </div>
+        </div>
+        <!-- ================================PLAY-LEFT END================================ -->
+    </div>
+    <div>
+        <!-- ================================PLAY-RIGHT START================================ -->
+        <div class="gcontainer playRight">
+            <div>
+                <a>                     
+                    <div class="gcontainer fRightTwo">
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                        <p>বায়ার্নের রেকর্ড টপকে শিরোপার আরও কাছে লেভারকুসেন</p>
+                    </div>                      
+                </a>
+            </div>
+            <div>
+                <a>                     
+                    <div class="gcontainer fRightTwo">
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                        <p>বায়ার্নের রেকর্ড টপকে শিরোপার আরও কাছে লেভারকুসেন</p>
+                    </div>                      
+                </a>
+            </div>
+            <div>
+                <a>                     
+                    <div class="gcontainer fRightTwo">
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                        <p>বায়ার্নের রেকর্ড টপকে শিরোপার আরও কাছে লেভারকুসেন</p>
+                    </div>                      
+                </a>
+            </div>              
+        </div>
+        <!-- ================================PLAY-RIGHT END================================ -->
+        <button class="btn btnAll">এই বিভাগের সব খবর</button>
+    </div>
+</section>
+<!-- ================================PLAY END================================ -->
+
+<!-- ================================INTERTAINMENT START================================ -->
+<div class="borderBotAll outHead">
+    <button class="btn btnDiffrent btnInter">বিনোদন</button>        
+    <hr>
+</div>
+<section class="gcontainer inter">
+    <div>
+        <!-- ================================INTERTAINMENT-LEFT START================================ -->
+        <div class="gcontainer interLeft">
+            <div class="interLeft1">
+                <a>
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p class="pCric">বায়ার্নের রেকর্ড টপকে শিরোপার আরও কাছে লেভারকুসেন</p>
+                </a>                    
+            </div>
+            <div class="interLeft2">
+                <a href="">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p class="pPlay">বায়ার্নের রেকর্ড টপকে শিরোপার আরও কাছে লেভারকুসেন</p>
+                    <p>বায়ার্নের রেকর্ড টপকে শিরোপার আরও কাছে লেভারকুসেন</p>
+                </a>
+            </div>
+        </div>
+        <!-- ================================INTERTAINMENT-LEFT END================================ -->
+    </div>
+    <div>
+        <!-- ================================INTERTAINMENT-RIGHT START================================ -->
+        <div class="gcontainer interRight">
+            <div>
+                <a href="">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>বায়ার্নের রেকর্ড টপকে শিরোপার আরও কাছে লেভারকুসেন</p>
+                </a>
+            </div>
+            <div>
+                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                <p class="pDiffrent"></p>
+            </div>              
+        </div>
+        <!-- ================================INTERTAINMENT-RIGHT END================================ -->
+        <button class="btn btnAll">এই বিভাগের সব খবর</button>
+    </div>
+</section>
+<!-- ================================INTERTAINMENT END================================ -->
+
+<!-- ================================LIFE START================================ -->
+<section class="gcontainer life">
+    <div><h2>লাইফস্টাইল</h2>
+    <div class="hrLife"></div>
+    <div class="hrLife"></div>
+    <div class="hrLife hrLifeLast"></div>
+        <!-- ================================LIFE-LEFT START================================ -->
+        <div class="gcontainer lifeLeft">
+            <!-- ================================LIFE-LEFT--1 START================================ -->
+            <div class="lifeLeft1">
+                <a>
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p class="pCric">বুন্দেসলিগায় উড়ছে জাবি আলোনসোর বায়ার লেভারকুসেন। গত ম্যাচের জয়ে তারা ছুঁয়ে ফেলেছিল বায়ার্ন </p>
+                </a>
+            </div>
+            <!-- ================================LIFE-LEFT--1 END================================ -->
+            <div>
+                <!-- ================================LIFE-LEFT--2 START================================ -->
+                <div class="fcontainer lifeLeft2">
+                    <div>
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                        <p class="pDiffrent">বুন্দেসলিগায় উড়ছে জাবি আলোনসোর বায়ার</p>
+                    </div>
+                    <div class="hrLife"></div>
+                    <div>
+                        <a>
+                            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                            <p class="pDiffrent">বুন্দেসলিগায় উড়ছে জাবি আলোনসোর বায়ার</p>
+                        </a>
+                    </div>
+                </div>
+                <!-- ================================LIFE-LEFT--2 END================================ -->
+            </div>
+        </div>
+        <!-- ================================LIFE-LEFT END================================ -->
+    </div>
+    <div><h2>নির্বাচন ও ইসি</h2><div class="hrLife"></div>
+    <div class="hrLife"></div>
+    <div class="hrLife hrLifeLast"></div>
+        <!-- ================================LIFE-RIGHT START================================ -->
+        <div class="gcontainer lifeRight">
+            <a class="gcontainer lifeRightTwo">
+                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+            </a>                
+            <a class="gcontainer lifeRightTwo">
+                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+            </a>                
+            <a class="gcontainer lifeRightTwo">
+                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+            </a>                
+            <a class="gcontainer lifeRightTwo">
+                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+            </a>                
+        </div>
+        <!-- ================================LIFE-RIGHT END================================ -->
+    </div>
+</section>
+<!-- ================================LIFE END================================ -->
+
+<!-- ================================PHOTO START================================ -->
+    <div class="outHead">
+        <h2>ফটো গ্যালারি</h2>
+        <div class="hrLife"></div>
+        <div class="hrLife"></div>
+        <div class="hrLife hrLifeLast"></div>
+    </div>
+<section class="gcontainer photo">
+    <!-- ================================PHOTO-LEFT START================================ -->
+    <div class="photoLeft">
+        <div class="overlay">
+            <span class="ps-prev">
+                <span class="ps-prevIcon"></span>
+            </span>
+            <span class="ps-next">
+                <span class="ps-nextIcon"></span>
+            </span>
+            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+            <h2 class="overlayHead">ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</h2>
+        </div>
+        <div class="fcontainer overlayBot">
+            <span class="ps-prev">
+                <span class="ps-prevIcon"></span>
+            </span>
+            <span class="ps-next">
+                <span class="ps-nextIcon"></span>
+            </span>
+            <div class="overlaySmall"><div class="imgDiv"><img src="img/all.jpg" alt=""></div></div>
+            <div class="overlaySmall"><div class="imgDiv ps-selected"><img src="img/all.jpg" alt=""></div></div>
+            <div class="overlaySmall"><div class="imgDiv"><img src="img/all.jpg" alt=""></div></div>
+        </div>
+    </div>
+    <!-- ================================PHOTO-LEFT END================================ -->
+    <div>
+        <!-- ================================PHOTO-RIGHT START================================ -->
+        <div class="gcontainer photoRight">
+            <a>
+                <i class="fa fa-camera-retro"></i>
+                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                <p>১৭ ফেব্রুয়ারি, ২০২৪</p>
+            </a>
+            <a>
+                <i class="fa fa-camera-retro"></i>
+                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                <p>১৭ ফেব্রুয়ারি, ২০২৪</p>
+            </a>
+            <a>
+                <i class="fa fa-camera-retro"></i>
+                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                <p>১৭ ফেব্রুয়ারি, ২০২৪</p>
+            </a>
+            <a>
+                <i class="fa fa-camera-retro"></i>
+                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                <p>১৭ ফেব্রুয়ারি, ২০২৪</p>
+            </a>
+            <a>
+                <i class="fa fa-camera-retro"></i>
+                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                <p>১৭ ফেব্রুয়ারি, ২০২৪</p>
+            </a>
+            <a>
+                <i class="fa fa-camera-retro"></i>
+                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                <p>১৭ ফেব্রুয়ারি, ২০২৪</p>
+            </a>
+            <a>
+                <i class="fa fa-camera-retro"></i>
+                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                <p>১৭ ফেব্রুয়ারি, ২০২৪</p>
+            </a>
+            <a>
+                <i class="fa fa-camera-retro"></i>
+                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                <p>১৭ ফেব্রুয়ারি, ২০২৪</p>
+            </a>                            
+        </div>
+        <!-- ================================PHOTO-RIGHT END================================ -->
+    </div>
+</section>
+<!-- ================================PHOTO END================================ -->
+
+<!-- ================================TECH START================================ -->
+<section class="gcontainer tech">
+    <div>
+        <div class="techHead">
+            <h2>শিল্প সাহিত্য</h2>
+            <div class="hrLife"></div>
+            <div class="hrLife"></div>
+            <div class="hrLife hrLifeLast"></div>
+        </div>
+        <a href="">
+            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+            <p class="pDiffrent borderBotSolid">‘সাতক্ষীরায় শেখ কামাল আইটি ট্রেনিং ইনকিউবেশন সেন্টার স্থাপন করা হবে’</p>
+        </a>
+        <a>
+            <p class="borderBotDot">পৃথিবীকে পরিচালিত করার শক্তি বাঙালির রয়েছে: ইয়াফেস ওসমান</p>
+        </a>
+        <a>
+            <p>বাংলা ভাষাভিত্তিক তিন সফটওয়্যার উন্মুক্ত</p>
+        </a>            
+    </div>      
+    <div>
+        <div class="techHead">
+            <h2>শিল্প সাহিত্য</h2>
+            <div class="hrLife"></div>
+            <div class="hrLife"></div>
+            <div class="hrLife hrLifeLast"></div>
+        </div>
+        <a href="">
+            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+            <p class="pDiffrent borderBotSolid">‘সাতক্ষীরায় শেখ কামাল আইটি ট্রেনিং ইনকিউবেশন সেন্টার স্থাপন করা হবে’</p>
+        </a>
+        <a>
+            <p class="borderBotDot">পৃথিবীকে পরিচালিত করার শক্তি বাঙালির রয়েছে: ইয়াফেস ওসমান</p>
+        </a>
+        <a>
+            <p>বাংলা ভাষাভিত্তিক তিন সফটওয়্যার উন্মুক্ত</p>
+        </a>            
+    </div>      
+    <div>
+        <div class="techHead">
+            <h2>শিল্প সাহিত্য</h2>
+            <div class="hrLife"></div>
+            <div class="hrLife"></div>
+            <div class="hrLife hrLifeLast"></div>
+        </div>
+        <a href="">
+            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+            <p class="pDiffrent borderBotSolid">‘সাতক্ষীরায় শেখ কামাল আইটি ট্রেনিং ইনকিউবেশন সেন্টার স্থাপন করা হবে’</p>
+        </a>
+        <a>
+            <p class="borderBotDot">পৃথিবীকে পরিচালিত করার শক্তি বাঙালির রয়েছে: ইয়াফেস ওসমান</p>
+        </a>
+        <a>
+            <p>বাংলা ভাষাভিত্তিক তিন সফটওয়্যার উন্মুক্ত</p>
+        </a>            
+    </div>      
+</section>
+<!-- ================================TECH END================================ -->
+
+<!-- ================================TOUR START================================ -->
+<section class="gcontainer tour">
+    <div><h2>শিল্প সাহিত্য</h2>
+        <div class="hrLife"></div>
+        <div class="hrLife"></div>
+        <div class="hrLife hrLifeLast"></div>
+        <!-- ================================TOUR-LEFT START================================ -->
+        <div class="gcontainer tourLeft">
+            <!-- ================================TOUR-LEFT--1 START================================ -->
+            <div class="tourLeft1">
+                <a>
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p class="pPlay">বাংলাদেশের সঙ্গে সরাসরি প্লেন যোগাযোগ স্থাপনে আগ্রহী সুইজারল্যান্ড</p>
+                </a>
+            </div>
+            <!-- ================================TOUR-LEFT--1 END================================ -->
+            <div>
+                <!-- ================================TOUR-LEFT--2 START================================ -->
+                <div class="fcontainer tourLeft2">
+                    <div>
+                        <a>
+                            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                            <p class="pCric">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>
+                        </a>
+                    </div>
+                    <div class="hrLife"></div>
+                    <div>
+                        <a>
+                            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                            <p class="pCric">বিমানের আন্তর্জাতিক রুটের টিকেটে ১৫ শতাংশ মূল্য ছাড়</p>
+                        </a>
+                    </div>
+                </div>
+                <!-- ================================TOUR-LEFT--2 END================================ -->
+            </div>
+        </div>
+        <!-- ================================TOUR-LEFT END================================ -->
+    </div>
+    <div class="tourRight">
+        <h2>শিল্প সাহিত্য</h2>
+        <div class="hrLife"></div>
+        <div class="hrLife"></div>
+        <div class="hrLife hrLifeLast"></div>
+        <!-- ================================TOUR-RIGHT START================================ -->
+        <div class="headSide">
+            <a>
+                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                <p class="pDiffrent">চাঁদপুরে ছাত্রদলের ২ নেতার কারাদণ্ড</p>
+            </a>
+        </div>
+        <div class="pSide1">
+            <a>
+                <p>যুব মহিলা লীগ নেত্রী মিম ও তার স্বামীর জামিন </p>
+            </a>
+        </div>
+        <div class="pSide2">
+            <a>
+                <p>তিন মামলায় ট্রান্সকম গ্রুপের ৫ কর্মকর্তার জামিন</p>
+            </a>
+        </div>
+        <!-- ================================TOUR-RIGHT END================================ -->
+    </div>
+</section>
+<!-- ================================TOUR END================================ -->
+
+<!-- ================================HEALTH START================================ -->
+<section class="gcontainer health">
+    <div><h2>স্বাস্থ্য</h2>
+        <div class="hrLife"></div>
+        <div class="hrLife"></div>
+        <div class="hrLife hrLifeLast"></div>
+        <div class="headSide">
+            <a>
+                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                <p class="pDiffrent">ভারতের ভিসা সমস্যা নিয়ে সত্য বলেছেন শ্রিংলা: নানক</p>
+            </a>
+        </div>
+        <div class="pSide1">
+            <a>
+                <p>ভিসা নিয়ে বাংলাদেশিদের হয়রানি করা উচিত নয়: হর্ষবর্ধন শ্রিংলা</p>
+            </a>
+        </div>
+        <div class="pSide2">
+            <a>
+                <p>ভারতে গ্রামীণ ব্যাংক কর্মচারীদের একদিনের হরতাল ঘোষণা</p>
+            </a>
+        </div>
+    </div>
+    <div><h2>স্বাস্থ্য</h2>
+        <div class="hrLife"></div>
+        <div class="hrLife"></div>
+        <div class="hrLife hrLifeLast"></div>
+        <div class="headSide">
+            <a>
+                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                <p class="pDiffrent">ভারতের ভিসা সমস্যা নিয়ে সত্য বলেছেন শ্রিংলা: নানক</p>
+            </a>
+        </div>
+        <div class="pSide1">
+            <a>
+                <p>ভিসা নিয়ে বাংলাদেশিদের হয়রানি করা উচিত নয়: হর্ষবর্ধন শ্রিংলা</p>
+            </a>
+        </div>
+        <div class="pSide2">
+            <a>
+                <p>ভারতে গ্রামীণ ব্যাংক কর্মচারীদের একদিনের হরতাল ঘোষণা</p>
+            </a>
+        </div>
+    </div>
+    <div><h2>স্বাস্থ্য</h2>
+        <div class="hrLife"></div>
+        <div class="hrLife"></div>
+        <div class="hrLife hrLifeLast"></div>
+        <div class="headSide">
+            <a>
+                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                <p class="pDiffrent">ভারতের ভিসা সমস্যা নিয়ে সত্য বলেছেন শ্রিংলা: নানক</p>
+            </a>
+        </div>
+        <div class="pSide1">
+            <a>
+                <p>ভিসা নিয়ে বাংলাদেশিদের হয়রানি করা উচিত নয়: হর্ষবর্ধন শ্রিংলা</p>
+            </a>
+        </div>
+        <div class="pSide2">
+            <a>
+                <p>ভারতে গ্রামীণ ব্যাংক কর্মচারীদের একদিনের হরতাল ঘোষণা</p>
+            </a>
+        </div>
+    </div>
+    <div><h2>স্বাস্থ্য</h2>
+        <div class="hrLife"></div>
+        <div class="hrLife"></div>
+        <div class="hrLife hrLifeLast"></div>
+        <div class="headSide">
+            <a>
+                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                <p class="pDiffrent">ভারতের ভিসা সমস্যা নিয়ে সত্য বলেছেন শ্রিংলা: নানক</p>
+            </a>
+        </div>
+        <div class="pSide1">
+            <a>
+                <p>ভিসা নিয়ে বাংলাদেশিদের হয়রানি করা উচিত নয়: হর্ষবর্ধন শ্রিংলা</p>
+            </a>
+        </div>
+        <div class="pSide2">
+            <a>
+                <p>ভারতে গ্রামীণ ব্যাংক কর্মচারীদের একদিনের হরতাল ঘোষণা</p>
+            </a>
+        </div>
+    </div>
+</section>
+<!-- ================================HEALTH END================================ -->
+
+<!-- ================================ENVIR START================================ -->
+<section class="gcontainer tour">
+    <div>
+        <h2>পরিবেশ ও জীববৈচিত্র্য</h2>
+        <div class="hrLife"></div>
+        <div class="hrLife"></div>
+        <div class="hrLife hrLifeLast"></div>
+        <!-- ================================ENVIR-LEFT START================================ -->
+        <div class="gcontainer tourLeft">
+            <!-- ================================ENVIR-LEFT--1 START================================ -->
+            <div class="tourLeft1">
+                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                <p class="pPlay">ভারতে গ্রামীণ ব্যাংক কর্মচারীদের একদিনের হরতাল ঘোষণা</p>
+            </div>
+            <!-- ================================ENVIR-LEFT--1 END================================ -->
+            <div>
+                <!-- ================================ENVIR-LEFT--2 START================================ -->
+                <div class="gcontainer tourLeft2">
+                    <div>
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                        <p class="pCric">ভারতে গ্রামীণ ব্যাংক কর্মচারীদের একদিনের হরতাল ঘোষণা</p>
+                    </div>
+                    <div class="hrLife"></div>
+                    <div>
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                        <p class="pCric">ভারতে গ্রামীণ ব্যাংক কর্মচারীদের একদিনের হরতাল ঘোষণা</p>
+                    </div>
+                </div>
+                <!-- ================================ENVIR-LEFT--2 END================================ -->
+            </div>
+        </div>
+        <!-- ================================ENVIR-LEFT END================================ -->
+    </div>
+    <div 
+    class="tourRight"><h2>পরিবেশ ও জীববৈচিত্র্য</h2>
+        <div class="hrLife"></div>
+        <div class="hrLife"></div>
+        <div class="hrLife hrLifeLast"></div>
+        <!-- ================================ENVIR-RIGHT START================================ -->
+        <div class="headSide">
+            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+            <p class="pDiffrent">ভারতে গ্রামীণ ব্যাংক কর্মচারীদের একদিনের হরতাল ঘোষণা</p>
+        </div>
+        <div class="pSide1">
+            <p></p>
+        </div>
+        <div class="pSide2">
+            <p></p>
+        </div>
+        <!-- ================================ENVIR-RIGHT END================================ -->
+    </div>
+</section>
+<!-- ================================ENVIR END================================ -->
+
+<!-- ================================ENGLISH START================================ -->
+<section class="gcontainer tour">
+    <div>
+        <h2>ENGLISH</h2>
+        <div class="hrLife"></div>
+        <div class="hrLife"></div>
+        <div class="hrLife hrLifeLast"></div>
+        <!-- ================================ENGLISH-LEFT START================================ -->
+        <div class="gcontainer tourLeft">
+            <!-- ================================ENGLISH-LEFT--1 START================================ -->
+            <div class="tourLeft1">
+                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                <p class="pPlay">ভারতে গ্রামীণ ব্যাংক কর্মচারীদের একদিনের হরতাল ঘোষণা</p>
+            </div>
+            <!-- ================================ENGLISH-LEFT--1 END================================ -->
+            <div>
+                <!-- ================================ENGLISH-LEFT--2 START================================ -->
+                <div class="fcontainer tourLeft2">
+                    <div>
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                        <p class="pCric">ভারতে গ্রামীণ ব্যাংক কর্মচারীদের একদিনের হরতাল ঘোষণা</p>
+                    </div>
+                    <div class="hrLife"></div>
+                    <div>
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                        <p class="pCric"></p>
+                    </div>
+                    <div class="hrLife"></div>
+                    <div>
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                        <p class="pCric"></p>
+                    </div>
+                    <div class="hrLife"></div>
+                    <div>
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                        <p class="pCric"></p>
+                    </div>
+                </div>
+                <!-- ================================ENGLISH-LEFT--2 END================================ -->
+            </div>
+        </div>
+        <!-- ================================ENGLISH-LEFT END================================ -->
+    </div>
+    <div class="tourRight archive"><h2>archive</h2><br>
+        <!-- ================================ENGLISH-RIGHT START================================ -->
+        <div>
+            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+        </div>          
+        <!-- ================================ENGLISH-RIGHT END================================ -->
+    </div>
+</section>
+<!-- ================================ENGLISH END================================ -->
+</div>
+
+
+
+<!-- Photo DETAILS Start --><!-- Photo DETAILS Start --><!-- Photo DETAILS Start -->
+<div class="border">
+    <!-- ================================CategoryPage START================================ -->
+    <section class="gcontainer top CategoryPage">
+        <div>           
+            <!-- ================================MAIN START================================ -->
+            <h1 class="pTitle">১৭ মার্চ, ২০২৪ = Photo DETAILS</h1>
+            <div class="photoLeft">
+                <div class="shareCountDiv">
+                    <div class="shareCount">0</div>
+                    <button class="btn socialShare fb"><i class="fa-brands fa-facebook"></i> Share</button>
+                </div>
+                
+                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                <p>বিক্রির জন্য গাছের বাকল ও কাঠের অব্যবহৃত অংশ সংগ্রহ করে আনা হয়েছে। নেছারাবাদের সন্ধ্যা নদী থেকে ছবি তুলেছেন এন আমিন রাসেল।</p>
+            </div>
+            <div class="photoLeft">
+                <div class="shareCountDiv">
+                    <div class="shareCount">0</div>
+                    <button class="btn socialShare fb"><i class="fa-brands fa-facebook"></i> Share</button>
+                </div>
+                
+                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                <p>বিক্রির জন্য গাছের বাকল ও কাঠের অব্যবহৃত অংশ সংগ্রহ করে আনা হয়েছে। নেছারাবাদের সন্ধ্যা নদী থেকে ছবি তুলেছেন এন আমিন রাসেল।</p>
+            </div>
+            <div class="photoLeft">
+                <div class="shareCountDiv">
+                    <div class="shareCount">0</div>
+                    <button class="btn socialShare fb"><i class="fa-brands fa-facebook"></i> Share</button>
+                </div>
+                
+                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                <p>বিক্রির জন্য গাছের বাকল ও কাঠের অব্যবহৃত অংশ সংগ্রহ করে আনা হয়েছে। নেছারাবাদের সন্ধ্যা নদী থেকে ছবি তুলেছেন এন আমিন রাসেল।</p>
+            </div>
+            <br><br><br>
+            <i class="copy">বাংলানিউজটোয়েন্টিফোর.কম'র প্রকাশিত/প্রচারিত কোনো সংবাদ, তথ্য, ছবি, আলোকচিত্র, রেখাচিত্র, ভিডিওচিত্র, অডিও কনটেন্ট কপিরাইট আইনে পূর্বানুমতি ছাড়া ব্যবহার করা যাবে না।</i>
+            <br><br><br>
+            <!-- ================================MAIN END================================ -->
+            <!-- ================================UNDER START================================ -->
+            <h2>আরো গ্যালারি</h2>
+            <div class="hrLife"></div>
+            <div class="hrLife"></div>
+            <div class="hrLife hrLifeLast"></div>
+            <div class="gcontainer under">
+                <div>                   
+                    <div class="contentDiffrent">
+                        <a class="CategoryPageLink">
+                            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                            <p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
+                        </a>
+                    </div>                  
+                </div>
+                <div>
+                    <div class="contentDiffrent">
+                        <a class="CategoryPageLink">
+                            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                            <p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="contentDiffrent">
+                        <a class="CategoryPageLink">
+                            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                            <p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
+                        </a>
+                    </div>
+                </div>              
+            </div>
+            <!-- ================================UNDER END================================ -->
+
+            
+        </div>
+        <div>
+            <!-- ================================SIDESCROLL START================================ -->
+            <div class="popular"><h1>সর্বশেষ</h1></div>
+            <div class="rightSide followSide">
+                <div class="gcontainer pageNameDiv">
+                    <div>
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    </div>
+                    <div>
+                        <h2 class="pageName"><a href="">pageName.com</a></h2>
+                        <p>4,615,048 followers</p>
+                    </div>
+                </div>
+                <div class="pageBtnDiv">
+                    <button class="btn btnFollow" id="btnFollow1"><a href="">Follow Page</a></button>
+                    <button class="btn btnFollow" id="btnFollow2"><a href="">Share</a></button>
+                </div>
+            </div>
+            <!-- ================================SIDESCROLL END================================ -->
+        </div>
+    </section>
+    <!-- ================================CategoryPage END================================ -->
+</div>
+<!-- Photo DETAILS End --><!-- Photo DETAILS End --><!-- Photo DETAILS End -->
+
+
+
+
+<div class="CategoryPageHead" id="CategoryPageHead">
+    <h1>জাতীয়</h1>
+</div>
+<div class="border">
+    <!-- ================================CategoryPage START================================ -->
+    <section class="gcontainer top CategoryPage">
+        <!-- ================================MAIN START================================ -->
+        <div>
+            <main>
+                <div class="gcontainer main">
+                    <div>
+                        <a><div class="leftMain">
+                            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                            <h1 class="heading">তদারকদের তোড়জোড়ের প্রভাব নেই, চাল-ডাল বিক্রি বাড়তি দামেই</h1>
+                            <p class="headingP">ঢাকা: মাসখানেক আগে হঠাৎ দাম বেড়ে অস্থির হয়ে ওঠে চাল ও ডালের বাজার। দাম নিয়ন্ত্রণে তোড়জোড় শুরু করে সরকারি তদারকি সংস্থাগুলো।  এতে</p>
+                        </div></a>
+                    </div>
+                    <div>
+                        <div class="gcontainer mainIn">
+                            <div>
+                                <a><div class="leftMainIn">
+                                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                                    <p>‘লাশটা দাফন কর, যাদের সঙ্গে মারামারি হইছে মীমাংসা করে দেব’</p>                               
+                                </div></a>                          
+                            </div>
+                            <div>
+                                <a><div class="leftMainIn">
+                                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                                    <p>হাকালুকি হাওরের মৎস্যসম্পদ রক্ষায় নানান উদ্যোগ</p>                               
+                                </div></a>                          
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <!-- ================================MAIN END================================ -->
+            <!-- ================================UNDER START================================ -->
+            <div class="gcontainer under">
+                <div>                   
+                    <div class="contentDiffrent">
+                        <a class="CategoryPageLink">
+                            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                            <p class="CategoryPagecontentP">ট্রাব স্মার্ট পারফরম্যান্স <br> অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডিট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
+                        </a>
+                    </div>                  
+                </div>
+                <div>
+                    <div class="contentDiffrent">
+                        <a class="CategoryPageLink">
+                            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                            <p class="CategoryPagecontentP">ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডিট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="contentDiffrent">
+                        <a class="CategoryPageLink">
+                            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                            <p class="CategoryPagecontentP">ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড</p>
+                        </a>
+                    </div>
+                </div>              
+            </div>
+            <!-- ================================UNDER END================================ -->
+
+            <!-- ================================TOUR-LEFT--2 START================================ -->
+            <div class="fcontainer tourLeft2 CategoryPagetourLeft2">
+                <div class="borderBotGray">
+                    <a>
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                        <p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>
+                        <p class="CategoryPageunderSubHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে ১৫ বছরে পর্যটন-এভিয়েশন শিল্পে ১৫ বছরে পর্যটন-এভিয়েশন শিল্পে </p>
+                        <span class="right"><time>১৯:০৭ ২৪ ফেব্রুয়ারি, ২০২৪</time></span>
+                    </a>
+                </div>
+                <div class="borderBotGray">
+                    <a>
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                        <p class="CategoryPageunderHead">বিমানের আন্তর্জাতিক রুটের টিকেটে ১৫ শতাংশ মূল্য ছাড়</p>
+                        <p class="CategoryPageunderSubHead">বিমানের আন্তর্জাতিক রুটের টিকেটে ১৫ শতাংশ বিমানের আন্তর্জাতিক রুটের টিকেটে ১৫ শতাংশ বিমানের আন্তর্জাতিক রুটের টিকেটে ১৫ শতাংশ </p>
+                        <span class="right"><time>১৯:০৭ ২৪ ফেব্রুয়ারি, ২০২৪</time></span>
+                    </a>
+                </div>
+                <div class="borderBotGray">
+                    <a>
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                        <p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>
+                        <p class="CategoryPageunderSubHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে ১৫ বছরে পর্যটন-এভিয়েশন শিল্পে ১৫ বছরে পর্যটন-এভিয়েশন শিল্পে </p>
+                        <span class="right"><time>১৯:০৭ ২৪ ফেব্রুয়ারি, ২০২৪</time></span>
+                    </a>
+                </div>
+                <div class="borderBotGray">
+                    <a>
+                        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                        <p class="CategoryPageunderHead">বিমানের আন্তর্জাতিক রুটের টিকেটে ১৫ শতাংশ মূল্য ছাড়</p>
+                        <p class="CategoryPageunderSubHead">বিমানের আন্তর্জাতিক রুটের টিকেটে ১৫ শতাংশ বিমানের আন্তর্জাতিক রুটের টিকেটে ১৫ শতাংশ বিমানের আন্তর্জাতিক রুটের টিকেটে ১৫ শতাংশ </p>
+                        <span class="right"><time>১৯:০৭ ২৪ ফেব্রুয়ারি, ২০২৪</time></span>
+                    </a>
+                </div>
+            </div>
+            <!-- ================================TOUR-LEFT--2 END================================ -->
+
+            <!-- ================================CATEGORY-LEFT--3 START================================ -->
+            <br><br><br><br>
+            <div class="paginateBorder">
+                <div class="fcontainer paginate">
+                    <div class="paginateItems">&lt;</div>
+                    <div class="paginateItems paginateItemsTwo">1</div>
+                    <div class="paginateItems">2</div>
+                    <div class="paginateItems">3</div>
+                    <div class="paginateItems">4</div>
+                    <div class="paginateItems">5</div>
+                    <div class="paginateItems">6</div>
+                    <div class="paginateItems">7</div>
+                    <div class="paginateItems">8</div>
+                    <div class="paginateItems">9</div>
+                    <div class="paginateItems">...</div>
+                    <div class="paginateItems">111</div>
+                    <div class="paginateItems">112</div>
+                    <div class="paginateItems paginateItemsLast">&gt;</div>
+                </div>
+            </div>
+            <br><br>
+            <div class="fcontainer recent">
+                <div class="recentItems">
+                    <p class="old">পুরোনো সংবাদ গুলো দেখতে এখানে ক্লিক করুন</p>
+                </div>
+                <div class="recentItems">
+                    <select name="" class="selection">
+                        <option value="">সাম্প্রতিক</option>
+                        <option value="">2024</option>
+                        <option value="">2023</option>
+                        <option value="">2022</option>
+                    </select>
+                </div>
+            </div>
+            <!-- ================================CATEGORY-LEFT--3 END================================ -->
+        </div>
+        <div>
+            <!-- ================================SIDESCROLL START================================ -->
+            <div class="popular"><h1>এই বিভাগের সর্বাধিক জনপ্রিয়</h1></div>
+            <div class="gcontainer lifeRight CategoryPagelifeRight">
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+            </div>
+            <!-- ================================SIDESCROLL END================================ -->
+        </div>
+    </section>
+    <!-- ================================CategoryPage END================================ -->
+</div>
+
+
+
+
+
+<div class="CategoryPageHead SingleCategoryPageHead"  id="SingleCategoryPageHead">
+    <h1>জাতীয় Single</h1>
+</div>
+<div class="border">
+    <!-- ================================SinglePage START================================ -->
+    <section class="gcontainer top CategoryPage SinglePage">
+        <!-- ================================MAIN START================================ -->
+        <div>
+            <div class="SingleMain">
+                <h1>রাজবাড়ীতে বাসের ধাক্কায় শ্বশুর-পুত্রবধূ নিহত</h1>
+                <br>
+                <p>ডিস্ট্রিক্ট করেসপন্ডেন্ট | বাংলানিউজটোয়েন্টিফোর.কম</p>
+                <p>আপডেট: ২০১৫ ঘণ্টা, ফেব্রুয়ারি ২৪, ২০২৪</p>
+                <br><br>            
+                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                <br>
+                <p>
+                    <strong>রাজবাড়ী:</strong>
+                    রাজবাড়ীতে চিকিৎসার জন্য হাসপাতালে যাওয়ার পথে বাসের ধাক্কায় অটোরিকশাযাত্রী শ্বশুর ও পুত্রবধূ নিহত হয়েছেন। এ দুর্ঘটনায় আহত হয়েছেন চালকসহ দুজন।
+
+                    <br><br><br>
+                    শনিবার (২৪ ফেব্রুয়ারি) দুপুরে সদর উপজেলার বাগমারা এলাকায় রাজবাড়ী-কুষ্টিয়া আঞ্চলিক মহাসড়কে এ দুর্ঘটনা ঘটে।
+
+                    <br><br>
+                    নিহতরা হলেন- রাজবাড়ীর কালুখালী উপজেলার লস্করদিয়া গ্রামের জাবেদ আলী (৭০) ও তার পুত্রবধূ খালেদা আক্তার (৩৫)।  
+
+                    <br><br>
+                    এ ঘটনায় অটোরিকশাচালকসহ বাহনটির আরেক যাত্রী আহত হয়েছেন। তারা রাজবাড়ী সদর হাসপাতালে চিকিৎসাধীন।
+
+                    <br><br>
+                    স্থানীয়দের বরাত দিয়ে পাংশা হাইওয়ে থানার উপ-পরিদর্শক (এসআই) উৎপল কুমার দাস বলেন, জাবেদ আলী ও তার পুত্রবধূ খালেদা আক্তার অটোরিকশায় করে রাজবাড়ী সদর হাসপাতালে চিকিৎসকের কাছে যাচ্ছিলেন। বাগমারা এলাকায় পৌঁছালে রাজবাড়ী থেকে কুষ্টিয়াগামী রাবেয়া পরিবহনের যাত্রীবাহী একটি বাস অটোরিকশাটিকে সামনে থেকে ধাক্কা দেয়। এতে ঘটনাস্থলেই খালেদা আক্তার মারা যান। আহত জাবেদ আলী ও অটোরিকশাচালকসহ তিনজনকে উদ্ধার করে রাজবাড়ী সদর হাসপাতালে পাঠানো হয়। জাবেদ আলীর অবস্থা আশঙ্কাজনক হওয়ায় তাকে ফরিদপুর বঙ্গবন্ধু মেডিকেল কলেজ হাসপাতালে নিয়ে যাওয়া হয়। সেখানে বিকেল ৪টার দিকে চিকিৎসাধীন অবস্থায় তিনি মারা যান।
+
+                    <br><br>
+                    এসআই উৎপল কুমার দাস আরও বলেন, দুর্ঘটনার পর রাবেয়া পরিবহনের বাসটি পালিয়ে যায়। বাসটি শনাক্ত করে আটকের চেষ্টা চলছে। খালেদা আক্তারের মরদেহ পরিবারের কাছে হস্তান্তর করা হয়েছে। জাবেদ আলীর মরদেহ হস্তান্তরের প্রক্রিয়া চলছে। এ ব্যাপারে পরবর্তী আইনি কার্যক্রম প্রক্রিয়াধীন।
+                </p>
+                <br>
+                <p>বাংলাদেশ সময়: ২০১০ ঘণ্টা, ফেব্রুয়ারি ২৪, ২০২৪</p>
+                <p>আরএ</p>
+                <br>
+                <b class="moreRead">ক্লিক করুন, আরো পড়ুন <i class="fa fa-arrow-right"></i></b>
+                <button class="btn moreReadBtn">সড়ক দুর্ঘটনা</button><br><br>
+                <div class="gcontainer SingleIcon">
+                    <div>
+                        <div>
+                            <button class="btn socialShare fb"><i class="fa-solid fa-thumbs-up"></i> Like</button>
+                            <button class="btn socialShare fb"><i class="fa-brands fa-facebook"></i> Share</button>
+                            <button class="btn socialShare tt"><i class="fa-brands fa-x-twitter"></i> Post</button>
+                            <br><br>
+                        </div>
+                        <div>
+                            <b>ইউটিউব সাবস্ক্রাইব করুন</b>
+                            <button class="btn socialShare yt"><i class="fa-brands fa-youtube"></i> YouTube</button>
+                            <br><br>
+                        </div>
+                    </div>
+                    <div class="flLogo">
+                        <div class="imgDiv">
+                            <img src="img/all.jpg" alt="">
+                        </div>
+                        <h2 class="webName">probash.com</h2>
+                        <button class="btn fl">Fllow Page</button>
+                    </div>
+                </div>
+                <i class="copy">বাংলানিউজটোয়েন্টিফোর.কম'র প্রকাশিত/প্রচারিত কোনো সংবাদ, তথ্য, ছবি, আলোকচিত্র, রেখাচিত্র, ভিডিওচিত্র, অডিও কনটেন্ট কপিরাইট আইনে পূর্বানুমতি ছাড়া ব্যবহার করা যাবে না।</i>
+                <br><br><br>
+            </div>
+            <!-- ================================MAIN END================================ -->
+            <!-- ================================UNDER START================================ -->
+            <h2 class="suggesion">জাতীয় বিভাগের সর্বোচ্চ পঠিত</h2>
+            <div class="hrLife"></div>
+            <div class="hrLife"></div>
+            <div class="hrLife hrLifeLast"></div>
+            <div class="gcontainer under">
+                <div>
+                    <a>
+                        <div class="contentDiffrent">
+                            <a class="CategoryPageLink">
+                                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                                <p class="CategoryPagecontentP">ট্রাব স্মার্ট পারফরম্যান্স <br> অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডিট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <div class="contentDiffrent">
+                        <a class="CategoryPageLink">
+                            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                            <p class="CategoryPagecontentP">ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডিট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="contentDiffrent">
+                        <a class="CategoryPageLink">
+                            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                            <p class="CategoryPagecontentP">ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড</p>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <a>
+                        <div class="contentDiffrent">
+                            <a class="CategoryPageLink">
+                                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                                <p class="CategoryPagecontentP">ট্রাব স্মার্ট পারফরম্যান্স <br> অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডিট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <div class="contentDiffrent">
+                        <a class="CategoryPageLink">
+                            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                            <p class="CategoryPagecontentP">ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডিট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="contentDiffrent">
+                        <a class="CategoryPageLink">
+                            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                            <p class="CategoryPagecontentP">ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড</p>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <a>
+                        <div class="contentDiffrent">
+                            <a class="CategoryPageLink">
+                                <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                                <p class="CategoryPagecontentP">ট্রাব স্মার্ট পারফরম্যান্স <br> অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডিট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <div class="contentDiffrent">
+                        <a class="CategoryPageLink">
+                            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                            <p class="CategoryPagecontentP">ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডিট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="contentDiffrent">
+                        <a class="CategoryPageLink">
+                            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                            <p class="CategoryPagecontentP">ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড</p>
+                        </a>
+                    </div>
+                </div>              
+            </div>
+            <!-- ================================UNDER END================================ -->          
+        </div>
+        <div>
+            <!-- ================================SIDESCROLL START================================ -->
+            <div class="popular"><h1>জাতীয় এর সর্বশেষ</h1></div>
+            <div class="gcontainer lifeRight CategoryPagelifeRight">
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>                
+                <a class="gcontainer lifeRightTwo">
+                    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+                    <p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
+                </a>
+                <br>                
+                <button class="btn btnAllNews">এই বিভাগের সব খবর</button>               
+            </div>
+            <!-- ================================SIDESCROLL END================================ -->
+        </div>
+    </section>
+    <!-- ================================SinglePage END================================ -->
+</div>
+
+
+<!-- Mobile Footer Apps DIV --><!-- Mobile Footer Apps DIV --><!-- Mobile Footer Apps DIV -->
+<div class="mobile fmcontainer">
+    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+    <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+</div>
+<!-- Mobile Footer Apps DIV --><!-- Mobile Footer Apps DIV --><!-- Mobile Footer Apps DIV -->
+
+
+<!-- ================================FOOTER START================================ -->
+<footer class="footer footerBg">
+    <div class="fcontainer first">
+        <div class="footerBorder"><a href="" class="footerLink">প্রচ্ছদ</a></div>
+        <div class="footerBorder"><a href="" class="footerLink">মোবাইল সার্ভিস</a></div>
+        <div class="footerBorder"><a href="" class="footerLink">সালতামামি</a></div>
+        <div class="footerBorder"><a href="" class="footerLink">খেলা</a></div>
+        <div class="footerBorder"><a href="" class="footerLink">ইসলাম</a></div>
+        <div class="footerBorder"><a href="" class="footerLink">পিএসআই</a></div>
+        <div class="footerBorder"><a href="" class="footerLink">Policy</a></div>
+        <div class="footerBorder"><a href="" class="footerLink">We</a></div>
+        <div class="footerBorder"><a href="" class="footerLink">Contact</a></div>
+        <div class="footerBorder"><a href="" class="footerLink">বিজ্ঞাপন</a></div>
+    </div>
+    <div class="hrFooter"></div>
+    <div class="fcontainer middle">
+        <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+        <div class="fcontainer">
+            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+            <div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+        </div>
+        <div class="fcontainer socialTopDiv">
+            <a href=""><i class="fa-brands fa-facebook-f socialIcon fbIcon"></i></a>
+            <a href=""><i class="fa-brands fa-twitter socialIcon ttIcon"></i></a>
+            <a href=""><i class="fa-brands fa-youtube socialIcon ytIcon"></i></a>       
+        </div>
+    </div>
+    <div class="hrFooter"></div>    
+    <div class="last">
+        <h4 class="author">সম্পাদক : জুয়েল মাজহার</h4>
+        <p>ফোন: +৮৮০ ২ ৮৪৩ ২১৮১, +৮৮০ ২ ৮৪৩ ২১৮২ আই.পি. ফোন: +৮৮০ ৯৬১ ২১২ ৩১৩১ নিউজ রুম মোবাইল: +৮৮০ ১৭২ ৯০৭ ৬৯৯৬, +৮৮০ ১৭২ ৯০৭ ৬৯৯৯ ফ্যাক্স: +৮৮০ ২ ৮৪৩ ২৩৪৬</p>
+        <p>ইমেইল: news@banglanews24.com সম্পাদক ইমেইল: editor@banglanews24.com</p>
+        <p>Marketing Department: +880 961 212 3131 Extension: 3039 E-mail: marketing@banglanews24.com</p>
+        <br>
+        <p>কপিরাইট © 2006-2024 banglanews24.com | একটি ইস্ট-ওয়েস্ট মিডিয়া গ্রুপের (ইডব্লিউএমজিএল) প্রতিষ্ঠান</p>
+    </div>
+</footer>
+<!-- ================================FOOTER END================================ -->
+
+<!-- #BACK-TOP --><!-- #BACK-TOP --><!-- #BACK-TOP -->
+<a id="back-top" href="#top"><i class="fa fa-angle-up"></i></a>
+
+<script src="js/index.js"></script>
+</body>
 </html>
