@@ -67,3 +67,57 @@ function showSlides(n) {
   dots[slideIndex-1].className += " activeSlide";
 }
 /*Slide Functionality*//*Slide Functionality*//*Slide Functionality*/
+
+/*video Functionality*//*video Functionality*//*video Functionality*/
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("closeModal")[0];
+
+// Get video element FOR video stoping in background
+// var video = document.querySelector('video');
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+
+  // video.play();
+  // video.currentTime = 0;
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+
+  stopVideos();
+  // video.pause(); 
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+
+    stopVideos();
+    // video.pause();
+  }
+}
+
+var stopVideos = function () {
+	var videos = document.querySelectorAll('iframe, video');
+	Array.prototype.forEach.call(videos, function (video) {
+		if (video.tagName.toLowerCase() === 'video') {
+			video.pause();
+		} else {
+			var src = video.src;
+			video.src = src;
+		}
+	});
+};
+/*video Functionality*//*video Functionality*//*video Functionality*/
+
+

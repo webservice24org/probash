@@ -1250,13 +1250,7 @@
 <section class="gcontainer photo">
 	<!-- ================================PHOTO-LEFT START================================ -->
 	<div class="photoLeft">
-		<div class="overlayParent">
-			<span class="prev" onclick="plusSlides(-1)">
-				<span class="prevIcon"></span>
-			</span>
-			<span class="next" onclick="plusSlides(1)">
-				<span class="nextIcon"></span>
-			</span>
+		<div class="overlayParent">			
 			<div class="overlay mySlides fade">				
 				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
 				<h2 class="overlayHead">ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</h2>
@@ -1269,17 +1263,23 @@
 				<div class="imgDiv"><img src="img/cartoon-1280-1280.jpg" alt=""></div>
 				<h2 class="overlayHead">ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</h2>
 			</div>
-		</div>		
-		<div class="fcontainer overlayBot">
 			<span class="prev" onclick="plusSlides(-1)">
 				<span class="prevIcon"></span>
 			</span>
 			<span class="next" onclick="plusSlides(1)">
 				<span class="nextIcon"></span>
 			</span>
+		</div>		
+		<div class="fcontainer overlayBot">			
 			<div class="overlaySmall" onclick="currentSlide(1)"><div class="imgDiv dot"><img src="img/all.jpg" alt=""></div></div>
 			<div class="overlaySmall" onclick="currentSlide(2)"><div class="imgDiv dot"><img src="img/default.jpg" alt=""></div></div>
 			<div class="overlaySmall" onclick="currentSlide(3)"><div class="imgDiv dot"><img src="img/cartoon-1280-1280.jpg" alt=""></div></div>
+			<span class="prev" onclick="plusSlides(-1)">
+				<span class="prevIcon"></span>
+			</span>
+			<span class="next" onclick="plusSlides(1)">
+				<span class="nextIcon"></span>
+			</span>
 		</div>
 	</div>
 	<!-- ================================PHOTO-LEFT END================================ -->
@@ -2254,6 +2254,32 @@
 
 <!-- #BACK-TOP --><!-- #BACK-TOP --><!-- #BACK-TOP -->
 <a id="back-top" href="#top"><i class="fa fa-angle-up"></i></a>
+
+
+
+<h2>Modal Example</h2>
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="closeModal">&times;</span>
+    <p>Some text in the Modal..
+      <iframe width="420" height="315"
+      src="https://www.youtube.com/embed/tgbNymZ7vqY">
+      </iframe>
+      <video controls class="video">
+        <source src="img/video-1.mp4">
+      </video>
+    </p>
+  </div>
+</div>
+
+
 
 <script src="js/index.js"></script>
 </body>
