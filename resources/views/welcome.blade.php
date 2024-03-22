@@ -744,9 +744,18 @@
 	</div>
 	<div>
 		<!-- ================================SIDESCROLL START================================ -->
-		<div class="gcontainer sideScroll">
-			<div>
-					<button class="btnSide">সর্বশেষ</button>&nbsp;<button class="btnSide">পাঠকের পছন্দ</button>
+		<div class="btnSideDiv">
+			<button class="btnSide btnSide1">সর্বশেষ</button>&nbsp;
+			<button class="btnSide btnSide2">পাঠকের পছন্দ</button>
+		</div>
+		<div class="gcontainer sideScroll sideScroll1">
+			<div class="itmemsSide">
+				<a><p>ফতুল্লায় যাবজ্জীবন সাজাপ্রাপ্ত পলাতক</p></a>
+				<span class="right">৪ ঘণ্টা আগে</span>
+			</div>
+			<div class="itmemsSide">
+				<a><p>ফতুল্লায় যাবজ্জীবন সাজাপ্রাপ্ত পলাতক আসামি গ্রেপ্তার</p></a>
+				<span class="right">৪ ঘণ্টা আগে</span>
 			</div>
 			<div class="itmemsSide">
 				<a><p>ফতুল্লায় যাবজ্জীবন সাজাপ্রাপ্ত পলাতক আসামি গ্রেপ্তার</p></a>
@@ -759,6 +768,56 @@
 			<div class="itmemsSide">
 				<p></p>
 				<span class="right"></span>
+			</div>
+			<div class="itmemsSide">
+				<p></p>
+				<span class="right"></span>
+			</div>
+			<div class="itmemsSide">
+				<p></p>
+				<span class="right"></span>
+			</div>
+			<div class="itmemsSide">
+				<p></p>
+				<span class="right"></span>
+			</div>
+			<div class="itmemsSide">
+				<p></p>
+				<span class="right"></span>
+			</div>
+			<div class="itmemsSide">
+				<p></p>
+				<span class="right"></span>
+			</div>
+			<div class="itmemsSide">
+				<p></p>
+				<span class="right"></span>
+			</div>
+			<div class="itmemsSide">
+				<p></p>
+				<span class="right"></span>
+			</div>
+			<div class="itmemsSide">
+				<p></p>
+				<span class="right"></span>
+			</div>
+			<div class="itmemsSide">
+				<p></p>
+				<span class="right"></span>
+			</div>
+		</div>
+		<div class="gcontainer sideScroll sideScroll2">
+			<div class="itmemsSide">
+				<a><p>৪ ঘণ্টা আগে সাজাপ্রাপ্ত পলাতক</p></a>
+				<span class="right">৪ ঘণ্টা আগে</span>
+			</div>
+			<div class="itmemsSide">
+				<a><p>৪ ঘণ্টা আগে সাজাপ্রাপ্ত পলাতক আসামি গ্রেপ্তার</p></a>
+				<span class="right">৪ ঘণ্টা আগে</span>
+			</div>
+			<div class="itmemsSide">
+				<a><p>৪ ঘণ্টা আগে সাজাপ্রাপ্ত পলাতক আসামি গ্রেপ্তার</p></a>
+				<span class="right">৪ ঘণ্টা আগে</span>
 			</div>
 			<div class="itmemsSide">
 				<p></p>
@@ -1038,26 +1097,62 @@
 				<!-- ================================DAILY-RIGHT-VIDEO START================================ -->
 				<div class="fcontainer dailyHead video">
 					<div>
-						<h2>Video Gellary</h2>
+						<h2>ভিডিও গ্যালারি</h2>
 						<div class="hrLife"></div><div class="hrLife"></div><div class="hrLife hrLifeRightLast"></div>
 					</div>
 				</div>
-				<div class="borderBotNot">
+				<div class="borderBotNot video">
 					<a>
+						<i class="fa fa-play vOpen" data-v-num="1"></i>
+						<!-- The Modal -->
+						<div id="myModal" class="modal vNumItem2">
+
+							<!-- Modal content -->
+							<div class="modal-content">
+								<span class="closeModal vClose">&times;</span>								
+								<video class="videoModal" controls>
+									<source src="img/video-1.mp4" type="video/mp4">
+								</video>
+							</div>
+						</div>
 						<div class="imgDiv">
 							<img src="img/all.jpg" alt="">
 						</div>
-						<p>রাশিয়ার ৫ শতাধিক ব্যক্তি-প্রতিষ্ঠানের ওপর নিষেধাজ্ঞার ঘোষণা যুক্তরাষ্ট্রের</p>
+						<p>ভিডিও রাশিয়ার ৫ শতাধিক ব্যক্তি-প্রতিষ্ঠানের ওপর নিষেধাজ্ঞার ঘোষণা যুক্তরাষ্ট্রের</p>
 					</a>
 				</div>								
 				<div class="fcontainer borderBotNot videoSmall">
 					<a>
+						<i class="fa fa-play vOpen" data-v-num="2"></i>
+						<!-- The Modal -->
+						<div id="myModal" class="modal vNumItem2">
+
+							<!-- Modal content -->
+							<div class="modal-content">
+								<span class="closeModal vClose">&times;</span>								
+								<video class="videoModal" controls>
+									<source src="img/video-2.mp4" type="video/mp4">
+								</video>
+							</div>
+						</div>
 						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
 						<p>রাশিয়ার ৫ শতাধিক ব্যক্তি-প্রতিষ্ঠানের ওপর নিষেধাজ্ঞার ঘোষণা যুক্তরাষ্ট্রের</p>
 					</a>
 				</div>
 				<div class="fcontainer borderBotNot videoSmall">
 					<a>
+						<i class="fa fa-play vOpen" data-v-num="3" id="myBtn"></i>
+						<!-- The Modal -->
+						<div id="myModal" class="modal vNumItem3">
+
+							<!-- Modal content -->
+							<div class="modal-content">
+								<span class="closeModal vClose">&times;</span>								
+								<video class="videoModal" controls>
+									<source src="img/video-3.mp4" type="video/mp4">
+								</video>
+							</div>
+						</div>
 						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
 						<p>রাশিয়ার ৫ শতাধিক ব্যক্তি-প্রতিষ্ঠানের ওপর নিষেধাজ্ঞার ঘোষণা যুক্তরাষ্ট্রের</p>
 					</a>
@@ -1652,6 +1747,117 @@
 </section>
 <!-- ================================ENGLISH END================================ -->
 </div>
+
+
+
+<!-- VIDEO DETAILS Start --><!-- VIDEO DETAILS Start --><!-- VIDEO DETAILS Start -->
+<div class="border">
+	<!-- ================================CategoryPage START================================ -->
+	<section class="gcontainer top CategoryPage">
+		<div>			
+			<!-- ================================MAIN START================================ -->
+			<p class="vP"><i class="fa fa-home"></i> / <a>সারা দেশের ব্যবসায়ী ও জনগণ প্রধানমন্ত্রীর সঙ্গেই আছে : আহমেদ আকবর সোবহান |</a>= VIDEO DETAILS</p class="vP">
+			<div class="photoLeft">
+				<h1 class="vH1">সারা দেশের ব্যবসায়ী ও জনগণ প্রধানমন্ত্রীর সঙ্গেই আছে : আহমেদ আকবর সোবহান |</h1>							
+				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<p>বিক্রির জন্য গাছের বাকল ও কাঠের অব্যবহৃত অংশ সংগ্রহ করে আনা হয়েছে। নেছারাবাদের সন্ধ্যা নদী থেকে ছবি তুলেছেন এন আমিন রাসেল।</p>
+			</div>						
+			<br><br><br>
+			<i class="copy">বাংলানিউজটোয়েন্টিফোর.কম'র প্রকাশিত/প্রচারিত কোনো সংবাদ, তথ্য, ছবি, আলোকচিত্র, রেখাচিত্র, ভিডিওচিত্র, অডিও কনটেন্ট কপিরাইট আইনে পূর্বানুমতি ছাড়া ব্যবহার করা যাবে না।</i>
+			<br><br><br>
+			<!-- ================================MAIN END================================ -->
+			<!-- ================================UNDER START================================ -->
+			<h2>আরো ভিডিও</h2>
+			<div class="hrLife"></div>
+			<div class="hrLife"></div>
+			<div class="hrLife hrLifeLast"></div>
+			<div class="gcontainer under">
+				<div>					
+					<div class="contentDiffrent">
+						<a class="CategoryPageLink">
+							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
+						</a>
+					</div>					
+				</div>
+				<div>
+					<div class="contentDiffrent">
+						<a class="CategoryPageLink">
+							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
+						</a>
+					</div>
+				</div>
+				<div>
+					<div class="contentDiffrent">
+						<a class="CategoryPageLink">
+							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
+						</a>
+					</div>
+				</div>				
+				<div>					
+					<div class="contentDiffrent">
+						<a class="CategoryPageLink">
+							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
+						</a>
+					</div>					
+				</div>
+				<div>
+					<div class="contentDiffrent">
+						<a class="CategoryPageLink">
+							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
+						</a>
+					</div>
+				</div>
+				<div>
+					<div class="contentDiffrent">
+						<a class="CategoryPageLink">
+							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
+						</a>
+					</div>
+				</div>				
+				<div>					
+					<div class="contentDiffrent">
+						<a class="CategoryPageLink">
+							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
+						</a>
+					</div>					
+				</div>
+				<div>
+					<div class="contentDiffrent">
+						<a class="CategoryPageLink">
+							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
+						</a>
+					</div>
+				</div>
+				<div>
+					<div class="contentDiffrent">
+						<a class="CategoryPageLink">
+							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
+						</a>
+					</div>
+				</div>				
+			</div>
+			<!-- ================================UNDER END================================ -->
+
+			
+		</div>
+		<div>
+			<!-- ================================SIDESCROLL START================================ -->
+			<div class="popular"><h1>সর্বশেষ</h1></div>			
+			<!-- ================================SIDESCROLL END================================ -->
+		</div>
+	</section>
+	<!-- ================================CategoryPage END================================ -->
+</div>
+<!-- VIDEO DETAILS End --><!-- VIDEO DETAILS End --><!-- VIDEO DETAILS End -->
 
 
 
@@ -2257,26 +2463,25 @@
 
 
 
-<h2>Modal Example</h2>
 
+<!-- <h2>Modal Example</h2> -->
 <!-- Trigger/Open The Modal -->
-<button id="myBtn">Open Modal</button>
+<button id="myBtn" class="vOpen">Open Modal</button>
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
 
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="closeModal">&times;</span>
-    <p>Some text in the Modal..
-      <iframe width="420" height="315"
-      src="https://www.youtube.com/embed/tgbNymZ7vqY">
-      </iframe>
-      <video controls class="video">
-        <source src="img/video-1.mp4">
-      </video>
-    </p>
-  </div>
+	<!-- Modal content -->
+	<div class="modal-content">
+		<span class="closeModal vClose">&times;</span>
+		<!-- <p>Some text in the Modal..</p>       	 -->
+		<!-- <iframe width="420" height="315"
+		src="https://www.youtube.com/embed/tgbNymZ7vqY">
+		</iframe> -->
+		<video class="videoModal" controls>
+			<source src="img/video-1.mp4" type="video/mp4">
+		</video>
+	</div>
 </div>
 
 
