@@ -37,21 +37,51 @@ const sideScroll2 = document.querySelector('.sideScroll2');
 btnSide1.addEventListener('click', ()=>{
 	sideScroll1.style.display = 'grid';
 	sideScroll2.style.display = 'none';
+	btnSide1.classList.add('btnSideActive');
+	btnSide2.classList.remove('btnSideActive');
 });
 btnSide2.addEventListener('click', ()=>{
 	sideScroll2.style.display = 'grid';
 	sideScroll1.style.display = 'none';
+	btnSide2.classList.add('btnSideActive');
+	btnSide1.classList.remove('btnSideActive');
 });
 /*sideScroll*//*sideScroll*//*sideScroll*//*sideScroll*/
+/*ecommerc*//*ecommerc*//*ecommerc*//*ecommerc*/
+const btnDiffrentEcom1 = document.querySelector('.btnDiffrentEcom1');
+const btnDiffrentEcom2 = document.querySelector('.btnDiffrentEcom2');
+const businessEcom = document.querySelector('.businessEcom');
+const shareEcom = document.querySelector('.shareEcom');
+btnDiffrentEcom1.addEventListener('click', ()=>{
+	businessEcom.style.display = 'grid';
+	shareEcom.style.display = 'none';
+	btnDiffrentEcom1.classList.add('btnDiffrentEcomActive');
+	btnDiffrentEcom2.classList.remove('btnDiffrentEcomActive');
+});
+btnDiffrentEcom2.addEventListener('click', ()=>{
+	shareEcom.style.display = 'grid';
+	businessEcom.style.display = 'none';
+	btnDiffrentEcom2.classList.add('btnDiffrentEcomActive');
+	btnDiffrentEcom1.classList.remove('btnDiffrentEcomActive');
+});
+/*ecommerc*//*ecommerc*//*ecommerc*//*ecommerc*/
 
 /*defaultImg*//*defaultImg*//*defaultImg*/
-const img = document.getElementsByTagName('img')
-for (var i = 0; i < img.length; i++) {
-	img[i].onerror = function(event) {
-		event.target.src = 'img/default.jpg'
-		img.onerror = null
-	}
-}
+// const img = document.getElementsByTagName('img')
+// for (var i = 0; i < img.length; i++){
+// 	img[i].addEventListener('error', function(event) {
+// 		event.target.src = 'img/default.jpg'
+// 		event.onerror = null
+// 	})
+// }
+
+// const img = document.getElementsByTagName('img')
+// for (var i = 0; i < img.length; i++) {
+// 	img[i].onerror = function(event) {
+// 		event.target.src = 'img/default.jpg'
+// 		img.onerror = null
+// 	}
+// }
 /*defaultImg*//*defaultImg*//*defaultImg*/
 
 /*Slide Functionality*//*Slide Functionality*//*Slide Functionality*/

@@ -4,10 +4,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Probash</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/> -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<style type="text/css">
 		/*img{
 			background-image: url(img/background-image-640-269.jpg);
@@ -45,13 +45,13 @@
 <!-- ================================HEADER START================================ -->
 <header class="fcontainer header">
 	<div class="logoDiv">
-		<div class="imgDiv"><a href=""><img src="img/cartoon-1280-1280.jpg" alt="" class="logo"></a></div>
+		<div class="imgDiv"><a href=""><img src="img/cartoon-1280-1280.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt="" class="logo"></a></div>
 	</div>		
 	<nav class="navbarDiv">
 		<ul class="fcontainer logosRight1">
 			<li class="">
 				<a href="" class="linkNav"><i class="fa fa-home"></i></a>
-				<!-- <a href="" class="linkNav"><div class="imgDiv"><img src="img/house.png" alt=""></div></a> -->
+				<!-- <a href="" class="linkNav"><div class="imgDiv"><img src="img/house.png" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div></a> -->
 			</li>
 			<li class="linkNavDiv">
 				<a href="#CategoryPageHead" class="linkNav">CategoryPAGE</a>
@@ -118,14 +118,14 @@
 <div class="mobileNavbarDisplay">
 	<div class="fcontainer mobileNavbar">
 		<div class="mobileNavberBtn">
-			<div class="imgDiv mobileNavIcon menuOutline"><img src="img/menu-outline.svg" alt=""></div>
+			<div class="imgDiv mobileNavIcon menuOutline"><img src="img/menu-outline.svg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 			<div class="imgDiv mobileNavIcon closeOutline">
 				<p class="menu">Menu</p>
 				<p class="close">&times;</p>
 			</div>
 		</div>
 		<div class="logoDiv">
-			<div class="imgDiv"><a href=""><img src="img/cartoon-1280-1280.jpg" alt="" class="logo"></a></div>
+			<div class="imgDiv"><a href=""><img src="img/cartoon-1280-1280.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt="" class="logo"></a></div>
 		</div>
 		<div class="forMobileSearch">			
 			<i class="fa-solid fa-magnifying-glass searchIcon"></i>
@@ -222,7 +222,7 @@
 <!-- mobile Main Heading -->
 <div class="mobile overlayParent">
 	<div class="overlay">
-		<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+		<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 		<h2 class="overlayHead">ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</h2>
 	</div>
 </div>
@@ -230,39 +230,39 @@
 <!-- under tow column -->
 <div class="mobile gmcontainer underMobile">
 	<a class="content">
-		<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+		<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 		<p>ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
 	</a>
 	<a class="content">
-		<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+		<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 		<p>ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
 	</a>
 	<a class="content">
-		<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+		<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 		<p>ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
 	</a>
 	<a class="content">
-		<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+		<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 		<p>ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
 	</a>
 	<a class="content">
-		<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+		<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 		<p>ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
 	</a>
 	<a class="content">
-		<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+		<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 		<p>ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
 	</a>
 	<a class="content">
-		<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+		<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 		<p>ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
 	</a>
 	<a class="content">
-		<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+		<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 		<p>ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
 	</a>
 	<a class="content">
-		<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+		<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 		<p>ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
 	</a>
 </div>
@@ -271,27 +271,27 @@
 <h5>পারফরম্যান্স</h5>	
 <div class="fmcontainer tourLeft2 CategoryPagetourLeft2">
 <a>
-	<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+	<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 	<p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>	
 	<span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
 </a>
 <a>
-	<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+	<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 	<p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>	
 	<span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
 </a>
 <a>
-	<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+	<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 	<p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>	
 	<span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
 </a>
 <a>
-	<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+	<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 	<p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>	
 	<span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
 </a>
 <a>
-	<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+	<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 	<p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>	
 	<span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
 </a>
@@ -308,12 +308,12 @@
 <br><br>	
 <div class="fmcontainer tourLeft2 CategoryPagetourLeft2">
 <a>
-	<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+	<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 	<p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>	
 	<span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
 </a>
 <a>
-	<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+	<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 	<p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>	
 	<span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
 </a>
@@ -324,39 +324,39 @@
 <h5>ফটো গ্যালারি</h5>
 <div class="gmcontainer photoRight">
 	<a>
-		<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+		<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 	</a>
 	<a>
-		<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+		<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 	</a>
 	<a>
-		<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+		<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 	</a>
 	<a>
-		<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+		<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 	</a>
 	<a>
-		<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+		<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 	</a>
 	<a>
-		<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+		<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 	</a>	
 	<a>
-		<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+		<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 	</a>
 	<a>
-		<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+		<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 	</a>
 	<a>
-		<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+		<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 	</a>	
 </div>
 <div class="gmcontainer photoRightTwo">
 	<a>
-		<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+		<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 	</a>
 	<a>
-		<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+		<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 	</a>
 </div>
 </div>
@@ -374,7 +374,7 @@
 					<button class="btn socialShare fb"><i class="fa-brands fa-facebook"></i> Share</button>
 				</div>
 				
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<p>বিক্রির জন্য গাছের বাকল ও কাঠের অব্যবহৃত অংশ সংগ্রহ করে আনা হয়েছে। নেছারাবাদের সন্ধ্যা নদী থেকে ছবি তুলেছেন এন আমিন রাসেল।</p>
 			</div>
 			<div class="photoLeft">
@@ -383,7 +383,7 @@
 					<button class="btn socialShare fb"><i class="fa-brands fa-facebook"></i> Share</button>
 				</div>
 				
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<p>বিক্রির জন্য গাছের বাকল ও কাঠের অব্যবহৃত অংশ সংগ্রহ করে আনা হয়েছে। নেছারাবাদের সন্ধ্যা নদী থেকে ছবি তুলেছেন এন আমিন রাসেল।</p>
 			</div>
 			<div class="photoLeft">
@@ -392,7 +392,7 @@
 					<button class="btn socialShare fb"><i class="fa-brands fa-facebook"></i> Share</button>
 				</div>
 				
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<p>বিক্রির জন্য গাছের বাকল ও কাঠের অব্যবহৃত অংশ সংগ্রহ করে আনা হয়েছে। নেছারাবাদের সন্ধ্যা নদী থেকে ছবি তুলেছেন এন আমিন রাসেল।</p>
 			</div>
 			<br><br><br>
@@ -408,7 +408,7 @@
 				<div>					
 					<div class="contentDiffrent">
 						<a class="CategoryPageLink">
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
 						</a>
 					</div>					
@@ -416,7 +416,7 @@
 				<div>
 					<div class="contentDiffrent">
 						<a class="CategoryPageLink">
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
 						</a>
 					</div>
@@ -424,7 +424,7 @@
 				<div>
 					<div class="contentDiffrent">
 						<a class="CategoryPageLink">
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
 						</a>
 					</div>
@@ -437,7 +437,7 @@
 			<div class="rightSide followSide">
 				<div class="gcontainer pageNameDiv">
 					<div>
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					</div>
 					<div>
 						<h2 class="pageName"><a href="">pageName.com</a></h2>
@@ -463,33 +463,33 @@
 	</div>
 	<div class="overlayParent">
 		<div class="overlay">
-			<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+			<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 			<h2 class="overlayHead">ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</h2>
 		</div>
 	</div>	
 	<div class="fmcontainer tourLeft2 CategoryPagetourLeft2">
 	<a>
-		<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+		<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 		<p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>	
 		<span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
 	</a>
 	<a>
-		<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+		<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 		<p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>	
 		<span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
 	</a>
 	<a>
-		<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+		<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 		<p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>	
 		<span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
 	</a>
 	<a>
-		<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+		<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 		<p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>	
 		<span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
 	</a>
 	<a>
-		<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+		<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 		<p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>	
 		<span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
 	</a>
@@ -517,7 +517,7 @@
 		<p>ডিস্ট্রিক্ট করেসপন্ডেন্ট | বাংলানিউজটোয়েন্টিফোর.কম</p>
 		<p>আপডেট: ২০১৫ ঘণ্টা, ফেব্রুয়ারি ২৪, ২০২৪</p>
 		<br><br>			
-		<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+		<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 		<br>
 		<p>
 			<strong>রাজবাড়ী:</strong>
@@ -562,27 +562,27 @@
 	<h5 class="singleMobileHead">এই বিভাগের সর্বশেষ সংবাদ</h5>	
 	<div class="fmcontainer tourLeft2 CategoryPagetourLeft2">
 		<a>
-			<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+			<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 			<p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>	
 			<span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
 		</a>
 		<a>
-			<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+			<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 			<p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>	
 			<span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
 		</a>
 		<a>
-			<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+			<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 			<p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>	
 			<span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
 		</a>
 		<a>
-			<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+			<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 			<p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>	
 			<span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
 		</a>
 		<a>
-			<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+			<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 			<p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>	
 			<span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
 		</a>
@@ -594,27 +594,27 @@
 	<h5 class="singleMobileHead">আজকের সর্বশেষ খবর</h5>	
 	<div class="fmcontainer tourLeft2 CategoryPagetourLeft2">
 		<a>
-			<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+			<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 			<p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>	
 			<span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
 		</a>
 		<a>
-			<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+			<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 			<p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>	
 			<span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
 		</a>
 		<a>
-			<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+			<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 			<p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>	
 			<span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
 		</a>
 		<a>
-			<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+			<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 			<p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>	
 			<span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
 		</a>
 		<a>
-			<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+			<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 			<p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>	
 			<span class="right"><time class="italic">১৯ ঘণ্টা আগে</time></span>
 		</a>
@@ -638,7 +638,7 @@
 		<div class="gcontainer main">
 			<div>
 				<a><div class="leftMain">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<h1 class="heading">তদারকদের তোড়জোড়ের প্রভাব নেই, চাল-ডাল বিক্রি বাড়তি দামেই</h1>
 					<p class="headingP">ঢাকা: মাসখানেক আগে হঠাৎ দাম বেড়ে অস্থির হয়ে ওঠে চাল ও ডালের বাজার। দাম নিয়ন্ত্রণে তোড়জোড় শুরু করে সরকারি তদারকি সংস্থাগুলো।  এতে</p>
 				</div></a>
@@ -647,13 +647,13 @@
 				<div class="gcontainer mainIn">
 					<div>
 						<a><div class="leftMainIn">
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p>‘লাশটা দাফন কর, যাদের সঙ্গে মারামারি হইছে মীমাংসা করে দেব’</p>								
 						</div></a>							
 					</div>
 					<div>
 						<a><div class="leftMainIn">
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p>হাকালুকি হাওরের মৎস্যসম্পদ রক্ষায় নানান উদ্যোগ</p>								
 						</div></a>							
 					</div>
@@ -667,74 +667,74 @@
 			<div>
 				<a>
 					<div class="content">
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 						<p>ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
 					</div>
 				</a>
 			</div>
 			<div>
 				<div class="content">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p></p>
 				</div>
 			</div>
 			<div>
 				<div class="content">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p></p>
 				</div>
 			</div>
 			<div>
 				<div class="content">
-					<div class="imgDiv"><img src="img/AAAall.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/AAAall.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';"></div>
 					<p></p>
 				</div>
 			</div>
 			<div>
 				<div class="content">
-					<div class="imgDiv"><img src="img/AAAall.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/AAAall.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';"></div>
 					<p></p>
 				</div>
 			</div>
 			<div>
 				<div class="content">
-					<div class="imgDiv"><img src="img/AAAall.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/AAAall.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p></p>
 				</div>
 			</div>
 			<div>
 				<div class="content">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p></p>
 				</div>
 			</div>
 			<div>
 				<div class="content">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p></p>
 				</div>
 			</div>
 			<div>
 				<div class="content">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p></p>
 				</div>
 			</div>
 			<div>
 				<div class="content">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p></p>
 				</div>
 			</div>
 			<div>
 				<div class="content">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p></p>
 				</div>
 			</div>
 			<div>
 				<div class="content">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p></p>
 				</div>
 			</div>
@@ -745,7 +745,7 @@
 	<div>
 		<!-- ================================SIDESCROLL START================================ -->
 		<div class="btnSideDiv">
-			<button class="btnSide btnSide1">সর্বশেষ</button>&nbsp;
+			<button class="btnSide btnSide1 btnSideActive">সর্বশেষ</button>&nbsp;
 			<button class="btnSide btnSide2">পাঠকের পছন্দ</button>
 		</div>
 		<div class="gcontainer sideScroll sideScroll1">
@@ -882,7 +882,7 @@
 			<div>
 				<a>
 					<div class="politicsImg">
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 						<p class="pDiffrent politicsHead">কাশিয়ানীতে আগুনে পুড়ে নারীর মৃত্যু</p>
 					</div>
 				</a>					
@@ -890,7 +890,7 @@
 			<div>
 				<a>
 					<div class="politicsImg">
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 						<p class="pDiffrent politicsHead">গাংনীতে বরইয়ের আঁটি শ্বাসনালিতে আটকে স্কুলছাত্রের মৃত্যু</p>		
 					</div>
 				</a>
@@ -898,7 +898,7 @@
 			<div>
 				<a href="">
 					<div class="politicsImg">
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 						<p class="pDiffrent politicsHead">ডিবি পরিচয়ে ছিনতাই, ফুটেজ দেখে গ্রেপ্তার</p>
 					</div>
 				</a>
@@ -914,7 +914,7 @@
 			<div>
 				<a>
 					<div class="politicsImg">
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 						<p class="pDiffrent politicsHead">কাশিয়ানীতে আগুনে পুড়ে নারীর মৃত্যু</p>
 					</div>
 				</a>					
@@ -922,7 +922,7 @@
 			<div>
 				<a>
 					<div class="politicsImg">
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 						<p class="pDiffrent politicsHead">গাংনীতে বরইয়ের আঁটি শ্বাসনালিতে আটকে স্কুলছাত্রের মৃত্যু</p>		
 					</div>
 				</a>
@@ -930,7 +930,7 @@
 			<div>
 				<a href="">
 					<div class="politicsImg">
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 						<p class="pDiffrent politicsHead">ডিবি পরিচয়ে ছিনতাই, ফুটেজ দেখে গ্রেপ্তার</p>
 					</div>
 				</a>
@@ -944,7 +944,7 @@
 		<div class="rightSide followSide">
 			<div class="gcontainer pageNameDiv">
 				<div>
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				</div>
 				<div>
 					<h2 class="pageName"><a href="">pageName.com</a></h2>
@@ -974,7 +974,7 @@
 			<!-- ================================DAILY-LEFT--1 START================================ -->
 			<div class="dailyLeft1">
 				<a href="">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p class="pDiffrent">অবৈধ হাসপাতাল-ক্লিনিক বন্ধে শুরু হচ্ছে অভিযান</p>
 				</a>					
 			</div>
@@ -984,33 +984,33 @@
 				<div class="fcontainer dailyLeft2">
 					<div>
 						<a href="">
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p class="pDiffrent">অবৈধ হাসপাতাল-ক্লিনিক বন্ধে শুরু হচ্ছে অভিযান</p>
 						</a>
 					</div>
 					<div class="hrDesign"></div>
 					<div>
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 						<p class="pDiffrent">অবৈধ হাসপাতাল-ক্লিনিক বন্ধে শুরু হচ্ছে অভিযান</p>
 					</div>
 					<div class="hrDesign"></div>
 					<div>
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 						<p class="pDiffrent">অবৈধ হাসপাতাল-ক্লিনিক বন্ধে শুরু হচ্ছে অভিযান</p>
 					</div>
 					<div class="hrDesign"></div>
 					<div>
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 						<p class="pDiffrent"></p>
 					</div>
 					<div class="hrDesign"></div>
 					<div>
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 						<p class="pDiffrent"></p>
 					</div>
 					<div class="hrDesign"></div>
 					<div>
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 						<p class="pDiffrent"></p>
 					</div>
 				</div>
@@ -1018,16 +1018,16 @@
 			</div>
 		</div>
 		<div class="btnDiv">
-			<button class="btn btnDiffrent btnEcom">অর্থনীতি-ব্যবসা</button>
-			<button class="btn btnDiffrent">শেয়ারবাজার</button>
+			<button class="btn btnDiffrent btnDiffrentEcom1 btnDiffrentEcomActive">অর্থনীতি-ব্যবসা</button>
+			<button class="btn btnDiffrent btnDiffrentEcom2">শেয়ারবাজার</button>
 			<hr>
 		</div>
 		<!-- ================================DAILY-LEFT-LAST START================================ -->
-		<div class="gcontainer dailyLeftLast">
+		<div class="gcontainer dailyLeftLast businessEcom">
 			<!-- ================================DAILY-LEFT-LAST--1 START================================ -->
 			<div class="dailyLeftLast1">
 				<a>
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<h2>হাকালুকি হাওরের মৎস্যসম্পদ রক্ষায় নানান উদ্যোগ</h2>
 				</a>
 				<p>ঢাকা: গত কয়েক বছর ধরেই রমজানে ঢাকা উত্তরের ভোজনরসিকদের আকর্ষণের কেন্দ্র হয়ে উঠেছে ইন্টারন্যাশনাল কনভেনশন সিটি বসুন্ধরার</p>
@@ -1040,6 +1040,40 @@
 				</div>
 				<div class="borderBot">
 					<a><p>অবৈধ হাসপাতাল-ক্লিনিক বন্ধে শুরু হচ্ছে অভিযান</p></a>
+				</div>
+				<div class="borderBot">
+					<p></p>
+				</div>
+				<div class="borderBot">
+					<p></p>
+				</div>
+				<div class="borderBot">
+					<p></p>
+				</div>
+				<div class="borderBotNot">
+					<p>gfffff</p>
+				</div>
+			</div>
+			<!-- ================================DAILY-LEFT-LAST--2 END================================ -->
+		</div>
+		<!-- ================================DAILY-LEFT-LAST START================================ -->
+		<div class="gcontainer dailyLeftLast shareEcom">
+			<!-- ================================DAILY-LEFT-LAST--1 START================================ -->
+			<div class="dailyLeftLast1">
+				<a>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
+					<h2>ঢাকা: গত কয়েক বছর ধরেই রমজানে নানান উদ্যোগ</h2>
+				</a>
+				<p>ঢাকা: গত কয়েক বছর ধরেই রমজানে ঢাকা উত্তরের ভোজনরসিকদের আকর্ষণের কেন্দ্র হয়ে উঠেছে ইন্টারন্যাশনাল কনভেনশন সিটি বসুন্ধরার</p>
+			</div>
+			<!-- ================================DAILY-LEFT-LAST--1 END================================ -->
+			<!-- ================================DAILY-LEFT-LAST--2 START================================ -->
+			<div class="dailyLeftLast2">
+				<div class="borderBot">
+					<a><p>ঢাকা: গত কয়েক বছর ধরেই রমজানে ঢাকা উত্তরের </p></a>
+				</div>
+				<div class="borderBot">
+					<a><p>ঢাকা: গত কয়েক বছর ধরেই রমজানে ঢাকা উত্তরের </p></a>
 				</div>
 				<div class="borderBot">
 					<p></p>
@@ -1070,7 +1104,7 @@
 				<div class="borderBotFirst">
 					<a>
 						<div class="imgDiv">
-							<img src="img/all.jpg" alt="">
+							<img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt="">
 						</div>
 						<p class="pDiffrent">রাশিয়ার ৫ শতাধিক ব্যক্তি-প্রতিষ্ঠানের ওপর নিষেধাজ্ঞার ঘোষণা যুক্তরাষ্ট্রের</p>
 					</a>
@@ -1116,7 +1150,7 @@
 							</div>
 						</div>
 						<div class="imgDiv">
-							<img src="img/all.jpg" alt="">
+							<img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt="">
 						</div>
 						<p>ভিডিও রাশিয়ার ৫ শতাধিক ব্যক্তি-প্রতিষ্ঠানের ওপর নিষেধাজ্ঞার ঘোষণা যুক্তরাষ্ট্রের</p>
 					</a>
@@ -1135,7 +1169,7 @@
 								</video>
 							</div>
 						</div>
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 						<p>রাশিয়ার ৫ শতাধিক ব্যক্তি-প্রতিষ্ঠানের ওপর নিষেধাজ্ঞার ঘোষণা যুক্তরাষ্ট্রের</p>
 					</a>
 				</div>
@@ -1153,7 +1187,7 @@
 								</video>
 							</div>
 						</div>
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 						<p>রাশিয়ার ৫ শতাধিক ব্যক্তি-প্রতিষ্ঠানের ওপর নিষেধাজ্ঞার ঘোষণা যুক্তরাষ্ট্রের</p>
 					</a>
 				</div>
@@ -1166,9 +1200,9 @@
 
 <!-- ================================PLAY START================================ -->
 <div class="outHead">
-	<button class="btn btnDiffrent btnPlay">খেলা</button>
-	<button class="btn btnDiffrent btnDiffrentCric">ক্রিকেট</button>
-	<button class="btn btnDiffrent btnDiffrentCric">ফুটবল</button>
+	<button class="btn btnDiffrent btnDiffrentPlayActive">খেলা</button>
+	<button class="btn btnDiffrent btnDiffrentPlay">ক্রিকেট</button>
+	<button class="btn btnDiffrent btnDiffrentPlay">ফুটবল</button>
 	<hr>
 </div>
 <section class="gcontainer play">
@@ -1177,15 +1211,15 @@
 		<div class="gcontainer playLeft">
 			<div class="playLeft1">
 				<a>
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p class="pCric">অবৈধ হাসপাতাল-ক্লিনিক বন্ধে শুরু হচ্ছে অভিযান</p>
 				</a>
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<p class="pCric">অবৈধ হাসপাতাল-ক্লিনিক বন্ধে শুরু হচ্ছে অভিযান</p>
 			</div>
 			<div class="playLeft2">
 				<a>
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p class="pPlay">বায়ার্নের রেকর্ড টপকে শিরোপার আরও কাছে লেভারকুসেন</p>
 				</a>
 				<p>বুন্দেসলিগায় উড়ছে জাবি আলোনসোর বায়ার লেভারকুসেন। গত ম্যাচের জয়ে তারা ছুঁয়ে ফেলেছিল বায়ার্ন মিউনিখের ৩২ ম্যাচ অপরাজিত থাকার রেকর্ড। আর গতকাল রাতে মাইনজের বিপক্ষে ২-১ ব্যবধানের জয়ের রেকর্ড</p>
@@ -1199,7 +1233,7 @@
 			<div>
 				<a>						
 					<div class="gcontainer fRightTwo">
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 						<p>বায়ার্নের রেকর্ড টপকে শিরোপার আরও কাছে লেভারকুসেন</p>
 					</div>						
 				</a>
@@ -1207,7 +1241,7 @@
 			<div>
 				<a>						
 					<div class="gcontainer fRightTwo">
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 						<p>বায়ার্নের রেকর্ড টপকে শিরোপার আরও কাছে লেভারকুসেন</p>
 					</div>						
 				</a>
@@ -1215,7 +1249,7 @@
 			<div>
 				<a>						
 					<div class="gcontainer fRightTwo">
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 						<p>বায়ার্নের রেকর্ড টপকে শিরোপার আরও কাছে লেভারকুসেন</p>
 					</div>						
 				</a>
@@ -1238,13 +1272,13 @@
 		<div class="gcontainer interLeft">
 			<div class="interLeft1">
 				<a>
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p class="pCric">বায়ার্নের রেকর্ড টপকে শিরোপার আরও কাছে লেভারকুসেন</p>
 				</a>					
 			</div>
 			<div class="interLeft2">
 				<a href="">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p class="pPlay">বায়ার্নের রেকর্ড টপকে শিরোপার আরও কাছে লেভারকুসেন</p>
 					<p>বায়ার্নের রেকর্ড টপকে শিরোপার আরও কাছে লেভারকুসেন</p>
 				</a>
@@ -1257,12 +1291,12 @@
 		<div class="gcontainer interRight">
 			<div>
 				<a href="">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>বায়ার্নের রেকর্ড টপকে শিরোপার আরও কাছে লেভারকুসেন</p>
 				</a>
 			</div>
 			<div>
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<p class="pDiffrent"></p>
 			</div>				
 		</div>
@@ -1283,7 +1317,7 @@
 			<!-- ================================LIFE-LEFT--1 START================================ -->
 			<div class="lifeLeft1">
 				<a>
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p class="pCric">বুন্দেসলিগায় উড়ছে জাবি আলোনসোর বায়ার লেভারকুসেন। গত ম্যাচের জয়ে তারা ছুঁয়ে ফেলেছিল বায়ার্ন </p>
 				</a>
 			</div>
@@ -1292,13 +1326,13 @@
 				<!-- ================================LIFE-LEFT--2 START================================ -->
 				<div class="fcontainer lifeLeft2">
 					<div>
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 						<p class="pDiffrent">বুন্দেসলিগায় উড়ছে জাবি আলোনসোর বায়ার</p>
 					</div>
 					<div class="hrLife"></div>
 					<div>
 						<a>
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p class="pDiffrent">বুন্দেসলিগায় উড়ছে জাবি আলোনসোর বায়ার</p>
 						</a>
 					</div>
@@ -1314,19 +1348,19 @@
 		<!-- ================================LIFE-RIGHT START================================ -->
 		<div class="gcontainer lifeRight">
 			<a class="gcontainer lifeRightTwo">
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 			</a>				
 			<a class="gcontainer lifeRightTwo">
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 			</a>				
 			<a class="gcontainer lifeRightTwo">
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 			</a>				
 			<a class="gcontainer lifeRightTwo">
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 			</a>				
 		</div>
@@ -1347,15 +1381,15 @@
 	<div class="photoLeft">
 		<div class="overlayParent">			
 			<div class="overlay mySlides fade">				
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/default.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<h2 class="overlayHead">ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</h2>
 			</div>
 			<div class="overlay mySlides fade">				
-				<div class="imgDiv"><img src="img/default.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<h2 class="overlayHead">ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</h2>
 			</div>
 			<div class="overlay mySlides fade">				
-				<div class="imgDiv"><img src="img/cartoon-1280-1280.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/cartoon-1280-1280.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<h2 class="overlayHead">ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</h2>
 			</div>
 			<span class="prev" onclick="plusSlides(-1)">
@@ -1366,9 +1400,9 @@
 			</span>
 		</div>		
 		<div class="fcontainer overlayBot">			
-			<div class="overlaySmall" onclick="currentSlide(1)"><div class="imgDiv dot"><img src="img/all.jpg" alt=""></div></div>
-			<div class="overlaySmall" onclick="currentSlide(2)"><div class="imgDiv dot"><img src="img/default.jpg" alt=""></div></div>
-			<div class="overlaySmall" onclick="currentSlide(3)"><div class="imgDiv dot"><img src="img/cartoon-1280-1280.jpg" alt=""></div></div>
+			<div class="overlaySmall" onclick="currentSlide(1)"><div class="imgDiv dot"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div></div>
+			<div class="overlaySmall" onclick="currentSlide(2)"><div class="imgDiv dot"><img src="img/default.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div></div>
+			<div class="overlaySmall" onclick="currentSlide(3)"><div class="imgDiv dot"><img src="img/cartoon-1280-1280.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div></div>
 			<span class="prev" onclick="plusSlides(-1)">
 				<span class="prevIcon"></span>
 			</span>
@@ -1383,42 +1417,42 @@
 		<div class="gcontainer photoRight">
 			<a>
 				<i class="fa fa-camera-retro"></i>
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<p>১৭ ফেব্রুয়ারি, ২০২৪</p>
 			</a>
 			<a>
 				<i class="fa fa-camera-retro"></i>
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<p>১৭ ফেব্রুয়ারি, ২০২৪</p>
 			</a>
 			<a>
 				<i class="fa fa-camera-retro"></i>
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<p>১৭ ফেব্রুয়ারি, ২০২৪</p>
 			</a>
 			<a>
 				<i class="fa fa-camera-retro"></i>
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<p>১৭ ফেব্রুয়ারি, ২০২৪</p>
 			</a>
 			<a>
 				<i class="fa fa-camera-retro"></i>
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<p>১৭ ফেব্রুয়ারি, ২০২৪</p>
 			</a>
 			<a>
 				<i class="fa fa-camera-retro"></i>
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<p>১৭ ফেব্রুয়ারি, ২০২৪</p>
 			</a>
 			<a>
 				<i class="fa fa-camera-retro"></i>
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<p>১৭ ফেব্রুয়ারি, ২০২৪</p>
 			</a>
 			<a>
 				<i class="fa fa-camera-retro"></i>
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<p>১৭ ফেব্রুয়ারি, ২০২৪</p>
 			</a>							
 		</div>
@@ -1437,7 +1471,7 @@
 			<div class="hrLife hrLifeLast"></div>
 		</div>
 		<a href="">
-			<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+			<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 			<p class="pDiffrent borderBotSolid">‘সাতক্ষীরায় শেখ কামাল আইটি ট্রেনিং ইনকিউবেশন সেন্টার স্থাপন করা হবে’</p>
 		</a>
 		<a>
@@ -1455,7 +1489,7 @@
 			<div class="hrLife hrLifeLast"></div>
 		</div>
 		<a href="">
-			<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+			<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 			<p class="pDiffrent borderBotSolid">‘সাতক্ষীরায় শেখ কামাল আইটি ট্রেনিং ইনকিউবেশন সেন্টার স্থাপন করা হবে’</p>
 		</a>
 		<a>
@@ -1473,7 +1507,7 @@
 			<div class="hrLife hrLifeLast"></div>
 		</div>
 		<a href="">
-			<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+			<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 			<p class="pDiffrent borderBotSolid">‘সাতক্ষীরায় শেখ কামাল আইটি ট্রেনিং ইনকিউবেশন সেন্টার স্থাপন করা হবে’</p>
 		</a>
 		<a>
@@ -1497,7 +1531,7 @@
 			<!-- ================================TOUR-LEFT--1 START================================ -->
 			<div class="tourLeft1">
 				<a>
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p class="pPlay">বাংলাদেশের সঙ্গে সরাসরি প্লেন যোগাযোগ স্থাপনে আগ্রহী সুইজারল্যান্ড</p>
 				</a>
 			</div>
@@ -1507,14 +1541,14 @@
 				<div class="fcontainer tourLeft2">
 					<div>
 						<a>
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p class="pCric">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>
 						</a>
 					</div>
 					<div class="hrLife"></div>
 					<div>
 						<a>
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p class="pCric">বিমানের আন্তর্জাতিক রুটের টিকেটে ১৫ শতাংশ মূল্য ছাড়</p>
 						</a>
 					</div>
@@ -1532,7 +1566,7 @@
 		<!-- ================================TOUR-RIGHT START================================ -->
 		<div class="headSide">
 			<a>
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<p class="pDiffrent">চাঁদপুরে ছাত্রদলের ২ নেতার কারাদণ্ড</p>
 			</a>
 		</div>
@@ -1559,7 +1593,7 @@
 		<div class="hrLife hrLifeLast"></div>
 		<div class="headSide">
 			<a>
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<p class="pDiffrent">ভারতের ভিসা সমস্যা নিয়ে সত্য বলেছেন শ্রিংলা: নানক</p>
 			</a>
 		</div>
@@ -1580,7 +1614,7 @@
 		<div class="hrLife hrLifeLast"></div>
 		<div class="headSide">
 			<a>
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<p class="pDiffrent">ভারতের ভিসা সমস্যা নিয়ে সত্য বলেছেন শ্রিংলা: নানক</p>
 			</a>
 		</div>
@@ -1601,7 +1635,7 @@
 		<div class="hrLife hrLifeLast"></div>
 		<div class="headSide">
 			<a>
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<p class="pDiffrent">ভারতের ভিসা সমস্যা নিয়ে সত্য বলেছেন শ্রিংলা: নানক</p>
 			</a>
 		</div>
@@ -1622,7 +1656,7 @@
 		<div class="hrLife hrLifeLast"></div>
 		<div class="headSide">
 			<a>
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<p class="pDiffrent">ভারতের ভিসা সমস্যা নিয়ে সত্য বলেছেন শ্রিংলা: নানক</p>
 			</a>
 		</div>
@@ -1651,7 +1685,7 @@
 		<div class="gcontainer tourLeft">
 			<!-- ================================ENVIR-LEFT--1 START================================ -->
 			<div class="tourLeft1">
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<p class="pPlay">ভারতে গ্রামীণ ব্যাংক কর্মচারীদের একদিনের হরতাল ঘোষণা</p>
 			</div>
 			<!-- ================================ENVIR-LEFT--1 END================================ -->
@@ -1659,12 +1693,12 @@
 				<!-- ================================ENVIR-LEFT--2 START================================ -->
 				<div class="gcontainer tourLeft2">
 					<div>
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 						<p class="pCric">ভারতে গ্রামীণ ব্যাংক কর্মচারীদের একদিনের হরতাল ঘোষণা</p>
 					</div>
 					<div class="hrLife"></div>
 					<div>
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 						<p class="pCric">ভারতে গ্রামীণ ব্যাংক কর্মচারীদের একদিনের হরতাল ঘোষণা</p>
 					</div>
 				</div>
@@ -1680,7 +1714,7 @@
 		<div class="hrLife hrLifeLast"></div>
 		<!-- ================================ENVIR-RIGHT START================================ -->
 		<div class="headSide">
-			<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+			<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 			<p class="pDiffrent">ভারতে গ্রামীণ ব্যাংক কর্মচারীদের একদিনের হরতাল ঘোষণা</p>
 		</div>
 		<div class="pSide1">
@@ -1705,7 +1739,7 @@
 		<div class="gcontainer tourLeft">
 			<!-- ================================ENGLISH-LEFT--1 START================================ -->
 			<div class="tourLeft1">
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<p class="pPlay">ভারতে গ্রামীণ ব্যাংক কর্মচারীদের একদিনের হরতাল ঘোষণা</p>
 			</div>
 			<!-- ================================ENGLISH-LEFT--1 END================================ -->
@@ -1713,22 +1747,22 @@
 				<!-- ================================ENGLISH-LEFT--2 START================================ -->
 				<div class="fcontainer tourLeft2">
 					<div>
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 						<p class="pCric">ভারতে গ্রামীণ ব্যাংক কর্মচারীদের একদিনের হরতাল ঘোষণা</p>
 					</div>
 					<div class="hrLife"></div>
 					<div>
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 						<p class="pCric"></p>
 					</div>
 					<div class="hrLife"></div>
 					<div>
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 						<p class="pCric"></p>
 					</div>
 					<div class="hrLife"></div>
 					<div>
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 						<p class="pCric"></p>
 					</div>
 				</div>
@@ -1740,7 +1774,7 @@
 	<div class="tourRight archive"><h2>archive</h2><br>
 		<!-- ================================ENGLISH-RIGHT START================================ -->
 		<div>
-			<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+			<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 		</div>			
 		<!-- ================================ENGLISH-RIGHT END================================ -->
 	</div>
@@ -1759,7 +1793,7 @@
 			<p class="vP"><i class="fa fa-home"></i> / <a>সারা দেশের ব্যবসায়ী ও জনগণ প্রধানমন্ত্রীর সঙ্গেই আছে : আহমেদ আকবর সোবহান |</a>= VIDEO DETAILS</p class="vP">
 			<div class="photoLeft">
 				<h1 class="vH1">সারা দেশের ব্যবসায়ী ও জনগণ প্রধানমন্ত্রীর সঙ্গেই আছে : আহমেদ আকবর সোবহান |</h1>							
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<p>বিক্রির জন্য গাছের বাকল ও কাঠের অব্যবহৃত অংশ সংগ্রহ করে আনা হয়েছে। নেছারাবাদের সন্ধ্যা নদী থেকে ছবি তুলেছেন এন আমিন রাসেল।</p>
 			</div>						
 			<br><br><br>
@@ -1775,7 +1809,7 @@
 				<div>					
 					<div class="contentDiffrent">
 						<a class="CategoryPageLink">
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
 						</a>
 					</div>					
@@ -1783,7 +1817,7 @@
 				<div>
 					<div class="contentDiffrent">
 						<a class="CategoryPageLink">
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
 						</a>
 					</div>
@@ -1791,7 +1825,7 @@
 				<div>
 					<div class="contentDiffrent">
 						<a class="CategoryPageLink">
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
 						</a>
 					</div>
@@ -1799,7 +1833,7 @@
 				<div>					
 					<div class="contentDiffrent">
 						<a class="CategoryPageLink">
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
 						</a>
 					</div>					
@@ -1807,7 +1841,7 @@
 				<div>
 					<div class="contentDiffrent">
 						<a class="CategoryPageLink">
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
 						</a>
 					</div>
@@ -1815,7 +1849,7 @@
 				<div>
 					<div class="contentDiffrent">
 						<a class="CategoryPageLink">
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
 						</a>
 					</div>
@@ -1823,7 +1857,7 @@
 				<div>					
 					<div class="contentDiffrent">
 						<a class="CategoryPageLink">
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
 						</a>
 					</div>					
@@ -1831,7 +1865,7 @@
 				<div>
 					<div class="contentDiffrent">
 						<a class="CategoryPageLink">
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
 						</a>
 					</div>
@@ -1839,7 +1873,7 @@
 				<div>
 					<div class="contentDiffrent">
 						<a class="CategoryPageLink">
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
 						</a>
 					</div>
@@ -1874,7 +1908,7 @@
 					<button class="btn socialShare fb"><i class="fa-brands fa-facebook"></i> Share</button>
 				</div>
 				
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<p>বিক্রির জন্য গাছের বাকল ও কাঠের অব্যবহৃত অংশ সংগ্রহ করে আনা হয়েছে। নেছারাবাদের সন্ধ্যা নদী থেকে ছবি তুলেছেন এন আমিন রাসেল।</p>
 			</div>
 			<div class="photoLeft">
@@ -1883,7 +1917,7 @@
 					<button class="btn socialShare fb"><i class="fa-brands fa-facebook"></i> Share</button>
 				</div>
 				
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<p>বিক্রির জন্য গাছের বাকল ও কাঠের অব্যবহৃত অংশ সংগ্রহ করে আনা হয়েছে। নেছারাবাদের সন্ধ্যা নদী থেকে ছবি তুলেছেন এন আমিন রাসেল।</p>
 			</div>
 			<div class="photoLeft">
@@ -1892,7 +1926,7 @@
 					<button class="btn socialShare fb"><i class="fa-brands fa-facebook"></i> Share</button>
 				</div>
 				
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<p>বিক্রির জন্য গাছের বাকল ও কাঠের অব্যবহৃত অংশ সংগ্রহ করে আনা হয়েছে। নেছারাবাদের সন্ধ্যা নদী থেকে ছবি তুলেছেন এন আমিন রাসেল।</p>
 			</div>
 			<br><br><br>
@@ -1908,7 +1942,7 @@
 				<div>					
 					<div class="contentDiffrent">
 						<a class="CategoryPageLink">
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
 						</a>
 					</div>					
@@ -1916,7 +1950,7 @@
 				<div>
 					<div class="contentDiffrent">
 						<a class="CategoryPageLink">
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
 						</a>
 					</div>
@@ -1924,7 +1958,7 @@
 				<div>
 					<div class="contentDiffrent">
 						<a class="CategoryPageLink">
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p class="CategoryPagecontentP CategoryPagecontentPdifPad">১৭ মার্চ, ২০২৪</p>
 						</a>
 					</div>
@@ -1940,7 +1974,7 @@
 			<div class="rightSide followSide">
 				<div class="gcontainer pageNameDiv">
 					<div>
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					</div>
 					<div>
 						<h2 class="pageName"><a href="">pageName.com</a></h2>
@@ -1974,7 +2008,7 @@
 				<div class="gcontainer main">
 					<div>
 						<a><div class="leftMain">
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<h1 class="heading">তদারকদের তোড়জোড়ের প্রভাব নেই, চাল-ডাল বিক্রি বাড়তি দামেই</h1>
 							<p class="headingP">ঢাকা: মাসখানেক আগে হঠাৎ দাম বেড়ে অস্থির হয়ে ওঠে চাল ও ডালের বাজার। দাম নিয়ন্ত্রণে তোড়জোড় শুরু করে সরকারি তদারকি সংস্থাগুলো।  এতে</p>
 						</div></a>
@@ -1983,13 +2017,13 @@
 						<div class="gcontainer mainIn">
 							<div>
 								<a><div class="leftMainIn">
-									<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+									<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 									<p>‘লাশটা দাফন কর, যাদের সঙ্গে মারামারি হইছে মীমাংসা করে দেব’</p>								
 								</div></a>							
 							</div>
 							<div>
 								<a><div class="leftMainIn">
-									<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+									<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 									<p>হাকালুকি হাওরের মৎস্যসম্পদ রক্ষায় নানান উদ্যোগ</p>								
 								</div></a>							
 							</div>
@@ -2003,7 +2037,7 @@
 				<div>					
 					<div class="contentDiffrent">
 						<a class="CategoryPageLink">
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p class="CategoryPagecontentP">ট্রাব স্মার্ট পারফরম্যান্স <br> অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডিট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
 						</a>
 					</div>					
@@ -2011,7 +2045,7 @@
 				<div>
 					<div class="contentDiffrent">
 						<a class="CategoryPageLink">
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p class="CategoryPagecontentP">ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডিট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
 						</a>
 					</div>
@@ -2019,7 +2053,7 @@
 				<div>
 					<div class="contentDiffrent">
 						<a class="CategoryPageLink">
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p class="CategoryPagecontentP">ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড</p>
 						</a>
 					</div>
@@ -2031,7 +2065,7 @@
 			<div class="fcontainer tourLeft2 CategoryPagetourLeft2">
 				<div class="borderBotGray">
 					<a>
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 						<p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>
 						<p class="CategoryPageunderSubHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে ১৫ বছরে পর্যটন-এভিয়েশন শিল্পে ১৫ বছরে পর্যটন-এভিয়েশন শিল্পে </p>
 						<span class="right"><time>১৯:০৭ ২৪ ফেব্রুয়ারি, ২০২৪</time></span>
@@ -2039,7 +2073,7 @@
 				</div>
 				<div class="borderBotGray">
 					<a>
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 						<p class="CategoryPageunderHead">বিমানের আন্তর্জাতিক রুটের টিকেটে ১৫ শতাংশ মূল্য ছাড়</p>
 						<p class="CategoryPageunderSubHead">বিমানের আন্তর্জাতিক রুটের টিকেটে ১৫ শতাংশ বিমানের আন্তর্জাতিক রুটের টিকেটে ১৫ শতাংশ বিমানের আন্তর্জাতিক রুটের টিকেটে ১৫ শতাংশ </p>
 						<span class="right"><time>১৯:০৭ ২৪ ফেব্রুয়ারি, ২০২৪</time></span>
@@ -2047,7 +2081,7 @@
 				</div>
 				<div class="borderBotGray">
 					<a>
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 						<p class="CategoryPageunderHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে সক্ষমতা বেড়েছে: ফারুক</p>
 						<p class="CategoryPageunderSubHead">১৫ বছরে পর্যটন-এভিয়েশন শিল্পে ১৫ বছরে পর্যটন-এভিয়েশন শিল্পে ১৫ বছরে পর্যটন-এভিয়েশন শিল্পে </p>
 						<span class="right"><time>১৯:০৭ ২৪ ফেব্রুয়ারি, ২০২৪</time></span>
@@ -2055,7 +2089,7 @@
 				</div>
 				<div class="borderBotGray">
 					<a>
-						<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+						<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 						<p class="CategoryPageunderHead">বিমানের আন্তর্জাতিক রুটের টিকেটে ১৫ শতাংশ মূল্য ছাড়</p>
 						<p class="CategoryPageunderSubHead">বিমানের আন্তর্জাতিক রুটের টিকেটে ১৫ শতাংশ বিমানের আন্তর্জাতিক রুটের টিকেটে ১৫ শতাংশ বিমানের আন্তর্জাতিক রুটের টিকেটে ১৫ শতাংশ </p>
 						<span class="right"><time>১৯:০৭ ২৪ ফেব্রুয়ারি, ২০২৪</time></span>
@@ -2105,99 +2139,99 @@
 			<div class="popular"><h1>এই বিভাগের সর্বাধিক জনপ্রিয়</h1></div>
 			<div class="gcontainer lifeRight CategoryPagelifeRight">
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 			</div>
@@ -2225,7 +2259,7 @@
 				<p>ডিস্ট্রিক্ট করেসপন্ডেন্ট | বাংলানিউজটোয়েন্টিফোর.কম</p>
 				<p>আপডেট: ২০১৫ ঘণ্টা, ফেব্রুয়ারি ২৪, ২০২৪</p>
 				<br><br>			
-				<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+				<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 				<br>
 				<p>
 					<strong>রাজবাড়ী:</strong>
@@ -2268,7 +2302,7 @@
 					</div>
 					<div class="flLogo">
 						<div class="imgDiv">
-							<img src="img/all.jpg" alt="">
+							<img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt="">
 						</div>
 						<h2 class="webName">probash.com</h2>
 						<button class="btn fl">Fllow Page</button>
@@ -2288,7 +2322,7 @@
 					<a>
 						<div class="contentDiffrent">
 							<a class="CategoryPageLink">
-								<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+								<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 								<p class="CategoryPagecontentP">ট্রাব স্মার্ট পারফরম্যান্স <br> অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডিট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
 							</a>
 						</div>
@@ -2297,7 +2331,7 @@
 				<div>
 					<div class="contentDiffrent">
 						<a class="CategoryPageLink">
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p class="CategoryPagecontentP">ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডিট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
 						</a>
 					</div>
@@ -2305,7 +2339,7 @@
 				<div>
 					<div class="contentDiffrent">
 						<a class="CategoryPageLink">
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p class="CategoryPagecontentP">ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড</p>
 						</a>
 					</div>
@@ -2314,7 +2348,7 @@
 					<a>
 						<div class="contentDiffrent">
 							<a class="CategoryPageLink">
-								<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+								<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 								<p class="CategoryPagecontentP">ট্রাব স্মার্ট পারফরম্যান্স <br> অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডিট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
 							</a>
 						</div>
@@ -2323,7 +2357,7 @@
 				<div>
 					<div class="contentDiffrent">
 						<a class="CategoryPageLink">
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p class="CategoryPagecontentP">ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডিট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
 						</a>
 					</div>
@@ -2331,7 +2365,7 @@
 				<div>
 					<div class="contentDiffrent">
 						<a class="CategoryPageLink">
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p class="CategoryPagecontentP">ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড</p>
 						</a>
 					</div>
@@ -2340,7 +2374,7 @@
 					<a>
 						<div class="contentDiffrent">
 							<a class="CategoryPageLink">
-								<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+								<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 								<p class="CategoryPagecontentP">ট্রাব স্মার্ট পারফরম্যান্স <br> অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডিট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
 							</a>
 						</div>
@@ -2349,7 +2383,7 @@
 				<div>
 					<div class="contentDiffrent">
 						<a class="CategoryPageLink">
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p class="CategoryPagecontentP">ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডিট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড পেলেন বসুন্ধরা এমডি</p>
 						</a>
 					</div>
@@ -2357,7 +2391,7 @@
 				<div>
 					<div class="contentDiffrent">
 						<a class="CategoryPageLink">
-							<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+							<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 							<p class="CategoryPagecontentP">ট্রাব স্মার্ট পারফরম্যান্স অ্যাওয়ার্ড</p>
 						</a>
 					</div>
@@ -2370,35 +2404,35 @@
 			<div class="popular"><h1>জাতীয় এর সর্বশেষ</h1></div>
 			<div class="gcontainer lifeRight CategoryPagelifeRight">
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>				
 				<a class="gcontainer lifeRightTwo">
-					<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+					<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 					<p>সিরাজগঞ্জ জেলা পরিষদের চূড়ান্ত লড়াইয়ে ৬ প্রার্থী</p>
 				</a>
 				<br>				
@@ -2413,8 +2447,8 @@
 
 <!-- Mobile Footer Apps DIV --><!-- Mobile Footer Apps DIV --><!-- Mobile Footer Apps DIV -->
 <div class="mobile fmcontainer">
-	<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
-	<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+	<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
+	<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 </div>
 <!-- Mobile Footer Apps DIV --><!-- Mobile Footer Apps DIV --><!-- Mobile Footer Apps DIV -->
 
@@ -2435,10 +2469,10 @@
 	</div>
 	<div class="hrFooter"></div>
 	<div class="fcontainer middle">
-		<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+		<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 		<div class="fcontainer">
-			<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
-			<div class="imgDiv"><img src="img/all.jpg" alt=""></div>
+			<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
+			<div class="imgDiv"><img src="img/all.jpg" onerror="this.onerror=null; if (this.src != 'img/default.jpg') this.src = 'img/default.jpg';" alt=""></div>
 		</div>
 		<div class="fcontainer socialTopDiv">
 			<a href=""><i class="fa-brands fa-facebook-f socialIcon fbIcon"></i></a>
@@ -2483,8 +2517,6 @@
 		</video>
 	</div>
 </div>
-
-
 
 <script src="js/index.js"></script>
 </body>

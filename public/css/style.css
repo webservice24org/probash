@@ -106,6 +106,11 @@ hr{
 .btnSide:hover{
 	border: .1rem solid transparent;
 	background: #de5d84b7;
+	cursor: pointer;
+}
+.btnSideActive, .btnSideActive:hover{
+	background: white;
+	cursor: auto;
 }
 .btnDiffrent{
 	font-family: SolaimanLipi;
@@ -121,7 +126,7 @@ hr{
 .btnDiffrent:hover{
 	background: #de5d84b7;
 }
-.btnDiffrentCric{
+.btnDiffrentPlay{
 	background: #aeeeee;
 }
 .btnAll{
@@ -129,12 +134,21 @@ hr{
 	font-size: 1.6rem;
 	float: right;
 	margin: 2%;
+	border-radius: 0;
+}
+.btnAll:hover{
+	text-decoration: underline;
+	color: #006db1;
 }
 .btnAllNews{
 	font-family: SolaimanLipi;
 	color: #fff;
-    background-color: #449d44;
-    border-color: #398439;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    cursor: pointer;
+}
+.btnAllNews:hover{
+	background-color: #4cae4c;
 }
 
 .imgDiv{
@@ -476,7 +490,7 @@ a.linkNav{
 .dailyHead .hrDesignLast{
 	margin-bottom: 2rem ;
 }
-.dailyLeft1{}
+/* .dailyLeft1{} */
 .dailyLeft1 .imgDiv{
 	height: 14.7rem;
 }
@@ -489,21 +503,22 @@ a.linkNav{
 	width: 12.0rem;
 	height: 5.8rem;
 }
-.btnEcom{
+.btnDiffrentEcomActive, .btnDiffrentEcomActive:hover{
 	background: #2dbf64;
     color: #fff;
+    cursor: auto;
 }
 .dailyLeftLast{
 	grid-template-columns: 1fr 1fr;
 	margin-top: 1.0rem;
 	margin-bottom: 2.0rem;
 }
-.dailyLeftLast1{}
+/* .dailyLeftLast1{} */
 .dailyLeftLast1 .imgDiv{
 	height: 17.7rem;
 }
 
-.dailyRight{}
+/* .dailyRight{} */
 .video{
 	position: relative;
 }
@@ -554,9 +569,10 @@ a.linkNav{
 	margin-left: 1.0rem;
 	margin-top: 3rem;
 }
-.btnPlay{
+.btnDiffrentPlayActive, .btnDiffrentPlayActive:hover{
 	background: #008b8b;
     color: #fff;
+    cursor: auto;
 }
 .btnInter{
 	background: #de5d83;
@@ -1214,3 +1230,6 @@ a.CategoryPageLink:hover, a.CategoryPageLink:active{
 	max-width: 100%;
 	max-height: 90vh;
 }
+
+
+
